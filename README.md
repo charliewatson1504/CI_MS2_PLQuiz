@@ -38,7 +38,7 @@
 # UX
 
 ## Project Goals
-
+The goal for this site is to provide a fun, interactive quiz that can be enjoyed on a break from work of when time limited. 
 ## User Stories
 
 ### First Time Visitor
