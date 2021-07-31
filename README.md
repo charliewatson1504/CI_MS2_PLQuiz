@@ -22,19 +22,27 @@
 		- [Returning Visitor](#returning-visitor)
 	- [Site Owner Goals](#site-owner-goals)
 	- [User Requirements and Expectations](#user-requirements-and-expectations)
-
 - [Design Choices](#design-choices)
-- [Colors](#colors)
-- [Fonts](#fonts)
-- [Wireframes](#wireframes)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-- [Validation](#validation)
-- [Testing](#testing)
-- [Bugs](#bugs)
-- [Deployment](#deployment)
-- [Credit](#credit)
-- [Acknowledgements](#acknowledgements)
+	- [Colors](#colors)
+	- [Fonts](#fonts)
+	- [Wireframes](#wireframes)
+		- [Homepage](#homepage)
+
+- [Euro 2020 Trivia Quiz](#euro-2020-trivia-quiz)
+	- [Project Overview](#project-overview)
+- [Table of Contents](#table-of-contents)
+- [UX](#ux)
+	- [Project Goals](#project-goals)
+	- [User Stories](#user-stories)
+		- [First Time Visitor](#first-time-visitor)
+		- [Returning Visitor](#returning-visitor)
+	- [Site Owner Goals](#site-owner-goals)
+	- [User Requirements and Expectations](#user-requirements-and-expectations)
+- [Design Choices](#design-choices)
+	- [Colors](#colors)
+	- [Fonts](#fonts)
+	- [Wireframes](#wireframes)
+		- [Homepage](#homepage)
 
 # UX
 
@@ -76,3 +84,18 @@ The goal for this site is to provide a fun, interactive quiz that can be enjoyed
    - A feedback form that sends an email direct to the site owner with comments from the user about their experience with the site.
    - Data from football databases pulled into the site via an API to give the user the most up to date information.
 2. The website should be interactive, provide feedback and confirmation to the user and validate any data entered by the user. It also needs to be aesthetic and intuitive to use.
+
+# Design Choices
+
+With this site I want to primarily create an interactive quiz based on the Euro 2020 football competition. In addition I want to bring in additional information from other sources and websites to provide a more interactive experience for the user. With that in mind the site still needs to look great and be responsive to different media screens. I don't want it to look cluttered so will go with a sleek minimal design that gains inspiration from the Euro 2020 competition colours and design itself.
+## Colors
+
+![Colour Pallette](#)
+## Fonts
+
+## Wireframes
+The wireframes for the site were created in Adobe XD and are linked below for Desktop, Tablet and Mobile devices.
+### Homepage
+1. <details><summary>Desktop</summary><img src="#"></details>
+2. <details><summary>Tablet</summary><img src="#"></details>
+3. <details><summary>Mobile</summary><img src="#"></details>
