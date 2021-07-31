@@ -38,7 +38,7 @@
 # UX
 
 ## Project Goals
-The goal for this site is to provide a fun, interactive quiz that can be enjoyed on a break from work of when time limited. 
+The goal for this site is to provide a fun, interactive quiz that can be enjoyed on a break from work of when time is limited. Additional pages to include stats and music playlists of football songs. This site has been built solely for the purpose of the 2nd milestone project and will not be used in any real world application so as not to infringe any trademarked content.
 ## User Stories
 
 ### First Time Visitor
