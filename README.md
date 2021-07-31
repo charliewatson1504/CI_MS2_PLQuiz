@@ -69,4 +69,10 @@ The goal for this site is to provide a fun, interactive quiz that can be enjoyed
 
 ## User Requirements and Expectations
 
-1.
+1. The website should include:
+   - An interactive quiz that provides feedback to the user as they progress through.
+   - A list of football songs provided direct from a spotify API that can be interacted with.
+   - A navigation bar that enables easy transition between pages and is responsive to what device it is viewed on.
+   - A feedback form that sends an email direct to the site owner with comments from the user about their experience with the site.
+   - Data from football databases pulled into the site via an API to give the user the most up to date information.
+2. The website should be interactive, provide feedback and confirmation to the user and validate any data entered by the user. It also needs to be aesthetic and intuitive to use.
