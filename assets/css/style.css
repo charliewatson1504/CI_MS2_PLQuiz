@@ -25,4 +25,6 @@ h4 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
 }
