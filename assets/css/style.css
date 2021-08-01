@@ -55,3 +55,21 @@ h4 {
 	align-items: center;
 }
 
+/* Quiz */
+.choice-container {
+	display: flex;
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+
+.choice-container:hover {
+	cursor: pointer;
+}
+
+.choice-prefix {
+	padding: 1.5rem 2.5rem;
+}
+
+.choice-text {
+	padding: 1.5rem;
+}
