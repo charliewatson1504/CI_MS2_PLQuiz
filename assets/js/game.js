@@ -155,7 +155,6 @@ options.forEach((option) => {
 		const userSelection = e.target;
 		const answerToQuestion = userSelection.dataset['num'];
 		const answerClassApply = answerToQuestion == currentQuestion.answer ? 'right' : 'wrong';
-		console.log(answerClassApply);
 		const applyClassTo = userSelection.parentElement.classList.add(answerClassApply);
 		setTimeout(() => {
 			userSelection.parentElement.classList.remove(answerClassApply);

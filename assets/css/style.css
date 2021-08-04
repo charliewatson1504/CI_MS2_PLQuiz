@@ -55,6 +55,13 @@ h4 {
 	display: none;
 }
 
+/* Progress Header */
+
+.progress-header {
+	display: flex;
+	justify-content: space-between;
+}
+
 /* Quiz */
 .option-container {
 	display: flex;
