@@ -54,8 +54,9 @@
 						<h3 class="modal-title" id="feedbackModalLabel">Send Us Your Feedback</h3>
 						<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
-					<div class="modal-body">
-						<form id="feedback-form" onsubmit="return sendMail(this);">
+					<!-- Add in onsubmit="return sendMail(this);" to form element -->
+					<form id="feedback-form">
+						<div class="modal-body">
 							<div class="form">
 								<label for="name">Name: </label>
 								<input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" required>
@@ -66,14 +67,14 @@
 							</div>
 							<div class="form">
 								<label for="feedback">Feedback: </label>
-								<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" required>
+								<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" required></textarea>
 							</div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn btn-primary">Submit Feedback</button>
-					</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn btn-primary">Submit Feedback</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
