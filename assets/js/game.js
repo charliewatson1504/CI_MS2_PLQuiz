@@ -13,6 +13,9 @@ let score = 0;
 let questions = [];
 
 beginQuiz = () => {
+	questionsAvailable = [...questions];
+	score = 0;
+	questionNumber = 0;
 	getANewQuestion();
 };
 
