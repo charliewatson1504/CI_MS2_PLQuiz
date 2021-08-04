@@ -143,14 +143,22 @@ getANewQuestion = () => {
 	question.innerText = currentQuestion.question;
 
 	options.forEach((option) => {
-		const number = option.dataset['number'];
-		option.innerHTML = currentQuestion['option' + number];
+		const num = option.dataset['num'];
+		option.innerHTML = currentQuestion['option' + num];
 });
 };
 
 options.forEach((option) => {
 	option.addEventListener('click', (e) => {
-		getANewQuestion();
-	})
-})
+		const userSelection = e.target;
+		const answerToQuestion = userSelection.dataset['num'];
+		const answerClassApply = answerToQuestion == currentQuestion.answer ? 'right' : 'wrong';
+		console.log(answerClassApply);
+		const applyClassTo = userSelection.parentElement.classList.add(answerClassApply);
+		setTimeout(() => {
+			const removeClassTo = userSelection.parentElement.classList.remove(answerClassApply);
+			getANewQuestion();
+		}, 1000);
+	});
+});
 beginQuiz();

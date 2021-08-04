@@ -73,3 +73,11 @@ h4 {
 .option-text {
 	padding: 1.5rem;
 }
+
+.right {
+	color: green;
+}
+
+.wrong {
+	color: red;
+}
