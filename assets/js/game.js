@@ -1,3 +1,5 @@
+import fetch from 'node-fetch';
+
 const question = document.getElementById('question');
 const option = Array.from(document.getElementsByClassName('option-text'));
 
@@ -9,15 +11,14 @@ let score = 0;
 
 let questions = [];
 
-fetch("./assets/js/questions.json")
-	.then(res => {
+fetch('./assets/js/questions.json')
+	.then((res) => {
 		return res.json();
 })
 	.then(loadedQuestions => {
 	console.log(loadedQuestions);
-});
+})
+	.catch((err) => {
+		console.error(err);
+	});
 
-beginQuiz = () => {
-	questionNumber++;
-	
-}
