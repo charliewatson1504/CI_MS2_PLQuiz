@@ -1,10 +1,8 @@
-const question = document.getElementById('question');
-const choices = Array.from(document.getElementsByClassName('choice-text'));
-
-let currentQuestion = {};
-let acceptingAnswers = true;
-let score = 0;
-let questionCounter = 0;
-let availableQuestions = [];
-
-const correct_
+let questions = [];
+fetch("./assets/js/questions.json")
+	.then(res => {
+		return res.json();
+})
+	.then(loadedQuestions => {
+	console.log(loadedQuestions);
+});
