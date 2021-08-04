@@ -2,8 +2,10 @@ const question = document.getElementById('question');
 const options = Array.from(document.getElementsByClassName('option-text'));
 const scoreId = document.getElementById('score-ID');
 const questionNumberId = document.getElementById('question-number')
+const progressBarInner = document.getElementById('progress-bar-inner')
 const pointsPerCorrectScore = 50;
 const totalQuizQuestions = 5;
+
 
 let currentQuestion = {};
 let questionsAvailable = [];
@@ -37,7 +39,7 @@ getANewQuestion = () => {
 		localStorage.setItem('mostRecentScore', score);
 		return window.location.assign('/quiz-end.html');
 	}
-	
+
 	let questionIndex = Math.floor(Math.random() * questionsAvailable.length);
 	currentQuestion = questionsAvailable[questionIndex];
 	question.innerText = currentQuestion.question;
@@ -49,6 +51,10 @@ getANewQuestion = () => {
 
 	questionNumber++;
 	questionNumberId.innerHTML = `Question ${questionNumber} of ${totalQuizQuestions}`;
+
+	let progressBarWidth = (questionNumber/totalQuizQuestions) * 100;
+	console.log(progressBarWidth);
+	progressBarInner.style.width = `${progressBarWidth}%`;
 };
 
 options.forEach((option) => {
