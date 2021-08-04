@@ -1,5 +1,6 @@
 const question = document.getElementById('question');
 const options = Array.from(document.getElementsByClassName('option-text'));
+const scoreId = document.getElementById('score-ID');
 const pointsPerCorrectScore = 50;
 const totalQuizQuestions = 5;
 
@@ -36,7 +37,7 @@ getANewQuestion = () => {
 	options.forEach((option) => {
 		const num = option.dataset['num'];
 		option.innerHTML = currentQuestion['option' + num];
-});
+	});
 };
 
 options.forEach((option) => {
@@ -46,7 +47,10 @@ options.forEach((option) => {
 		const userSelection = e.target;
 		const answerToQuestion = userSelection.dataset['num'];
 		const answerClassApply = answerToQuestion == currentQuestion.answer ? 'right' : 'wrong';
-		const applyClassTo = userSelection.parentElement.classList.add(answerClassApply);
+		const answerScoreApply = answerToQuestion == currentQuestion.answer ? pointsPerCorrectScore : 0;
+		userSelection.parentElement.classList.add(answerClassApply);
+		score += answerScoreApply;
+		scoreId.innerText = score;
 		setTimeout(() => {
 			userSelection.parentElement.classList.remove(answerClassApply);
 			allowClick = true
