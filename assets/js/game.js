@@ -148,4 +148,9 @@ getANewQuestion = () => {
 });
 };
 
+options.forEach((option) => {
+	option.addEventListener('click', (e) => {
+		getANewQuestion();
+	})
+})
 beginQuiz();
