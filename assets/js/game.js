@@ -150,13 +150,16 @@ getANewQuestion = () => {
 
 options.forEach((option) => {
 	option.addEventListener('click', (e) => {
+		if (!allowClick) return;
+		allowClick = false;
 		const userSelection = e.target;
 		const answerToQuestion = userSelection.dataset['num'];
 		const answerClassApply = answerToQuestion == currentQuestion.answer ? 'right' : 'wrong';
 		console.log(answerClassApply);
 		const applyClassTo = userSelection.parentElement.classList.add(answerClassApply);
 		setTimeout(() => {
-			const removeClassTo = userSelection.parentElement.classList.remove(answerClassApply);
+			userSelection.parentElement.classList.remove(answerClassApply);
+			allowClick = true
 			getANewQuestion();
 		}, 1000);
 	});
