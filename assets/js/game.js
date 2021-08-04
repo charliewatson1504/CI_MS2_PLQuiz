@@ -1,6 +1,7 @@
 const question = document.getElementById('question');
 const options = Array.from(document.getElementsByClassName('option-text'));
 const scoreId = document.getElementById('score-ID');
+const questionNumberId = document.getElementById('question-number')
 const pointsPerCorrectScore = 50;
 const totalQuizQuestions = 5;
 
@@ -32,15 +33,22 @@ fetch('../assets/js/questions.json')
 	});
 
 getANewQuestion = () => {
-	questionsAvailable = [...questions];
+	if (questionsAvailable.length === 0 || questionNumber >= totalQuizQuestions) {
+		localStorage.setItem('mostRecentScore', score);
+		return window.location.assign('/quiz-end.html');
+	}
+	
 	let questionIndex = Math.floor(Math.random() * questionsAvailable.length);
 	currentQuestion = questionsAvailable[questionIndex];
 	question.innerText = currentQuestion.question;
-
+		
 	options.forEach((option) => {
 		const num = option.dataset['num'];
 		option.innerHTML = currentQuestion['option' + num];
 	});
+
+	questionNumber++;
+	questionNumberId.innerHTML = `Question ${questionNumber} of ${totalQuizQuestions}`;
 };
 
 options.forEach((option) => {
