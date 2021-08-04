@@ -55,7 +55,20 @@
 						<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
-						<form action="" onsubmit=""></form>
+						<form id="feedback-form" onsubmit="return sendMail(this);">
+							<div class="form">
+								<label for="name">Name: </label>
+								<input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" required>
+							</div>
+							<div class="form">
+								<label for="email">Email: </label>
+								<input type="email" name="email" id="email" placeholder="Enter Email" class="forminput" required>
+							</div>
+							<div class="form">
+								<label for="feedback">Feedback: </label>
+								<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" required>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
