@@ -1,5 +1,8 @@
 :root {
 	font-size: 62.5%;
+	--clr-dark: #484747;
+	--clr-accent: #27A7B7;
+	--clr-light: #fff;
 }
 
 * {
