@@ -171,22 +171,11 @@ h4 {
 	width: 100%;
 }
 
-.justify-center {
-	justify-content: center;
-}
-
-.text-center {
+.quiz-hero {
+	background: url(/assets/images/quiz-hero.webp) no-repeat center center;
+	width: 100%;
+	height: 30rem;
 	text-align: center;
-}
-
-.flex-column {
-	display: flex;
-	flex-direction: column;
-}
-
-.flex-center {
-	justify-content: center;
-	align-items: center;
 }
 
 .hidden {
