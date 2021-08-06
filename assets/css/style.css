@@ -97,6 +97,13 @@ h4 {
 	}
 }
 
+#homepage-hero {
+	background: url(/assets/images/homepage-hero.webp) no-repeat center center;
+	height: 45rem;
+	width: 100%;
+	background-size: cover;
+}
+
 .container {
 	width: 100vw;
 	height: 100vh;
