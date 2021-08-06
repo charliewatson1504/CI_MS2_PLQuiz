@@ -104,6 +104,26 @@ h4 {
 	background-size: cover;
 }
 
+.homepage-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem;
+}
+
+.card {
+	width: 20%;
+	text-align: center;
+	height: 30rem;
+	border: 0.1rem solid #484747;
+	box-shadow: 0.2rem 0.2rem 0.8rem #484747;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	transition: transform 250ms ease-in-out;
+}
+
 .footer-container{
 	width: 100%;
 	border-top: 2px solid var(--clr-dark);
