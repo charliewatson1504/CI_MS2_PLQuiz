@@ -97,11 +97,14 @@ With this site I want to primarily create an interactive quiz based on the Premi
 
 ## Images
 
-Photo by <a href="https://unsplash.com/@viennachanges?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vienna Reyes</a> on <a href="https://unsplash.com/s/photos/football-stadium?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Homepage hero Photo by <a href="https://unsplash.com/@viennachanges?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vienna Reyes</a> on <a href="https://unsplash.com/s/photos/football-stadium?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-Photo by <a href="https://unsplash.com/@piensaenpixel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emilio Garcia</a> on <a href="https://unsplash.com/s/photos/football?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Quiz hero Photo by <a href="https://unsplash.com/@piensaenpixel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emilio Garcia</a> on <a href="https://unsplash.com/s/photos/football?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-
+Quiz card img Photo by <a href="https://unsplash.com/@a56?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ÁLVARO MENDOZA</a> on <a href="https://unsplash.com/s/photos/football-quiz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+stats card Photo by <a href="https://unsplash.com/@travelnomades?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Travel Nomades</a> on <a href="https://unsplash.com/s/photos/football?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 ## Wireframes
 The wireframes for the site were created in Adobe XD and are linked below for Desktop, Tablet and Mobile devices.
 ### Homepage
