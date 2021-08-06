@@ -171,11 +171,54 @@ h4 {
 	width: 100%;
 }
 
-.quiz-hero {
-	background: url(/assets/images/quiz-hero.webp) no-repeat center center;
-	width: 100%;
-	height: 30rem;
+.quiz-container {
+	max-width: 70%;
+	height: 60rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.quiz-card {
+	width: 60rem;
 	text-align: center;
+	height: 55rem;
+	border: 0.1rem solid #484747;
+	box-shadow: 0.2rem 0.2rem 0.8rem #484747;
+}
+
+.quiz-hero {
+    background: url(/assets/images/quiz-hero.webp) no-repeat center center;
+    width: 100%;
+    height: 30rem;
+    text-align: center;
+    border-bottom: 1px solid #484747;
+}
+
+.quiz-card h1 {
+    padding: 1rem 0;
+    font-size: 4rem;
+    color: var(--clr-accent);
+}
+
+.quiz-card a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    padding: 1rem 0;
+    width: 20rem;
+    border: 1px solid #484747;
+    margin: 1rem auto;
+    color: var(--clr-light);
+    background: var(--clr-accent);
+    box-shadow: 0.2rem 0.2rem 0.2rem #484747;
+}
+
+.quiz-card a:hover {
+    transform: scale(1.03);
+    transition: transform 150ms ease;
 }
 
 .hidden {
