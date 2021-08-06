@@ -25,12 +25,77 @@ h4 {
 	font-family: 'Roboto', sans-serif;
 }
 
+.container-fluid {
+	padding: 1rem 0;
+}
+
+.navbar-brand {
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	padding: 1.5rem;
+	background: var(--clr-light);
+	border-radius: 50%;
+	box-shadow: 0.2rem 0.2rem 1rem #484747;
+}
+
 .navbar-brand img {
 	height: 5rem;
 	width: 5rem;
 }
 
+.navbar {
+	background: var(--clr-accent);
+	color: var(--clr-light);
+}
 
+.navbar-nav {
+	margin: 0 auto;
+}
+
+.nav-item {
+	padding: 0 1rem;
+}
+
+.nav-item a {
+	text-decoration: none;
+	font-size: 2rem;
+	color: var(--clr-light);
+}
+
+.nav-item:hover {
+	transform: scale(1.2);
+	transition: transform 300ms ease-in-out;
+}
+
+.active {
+	border-bottom: 2px solid #fff;
+}
+
+/* Buttons */
+
+.btn {
+	background: var(--clr-light);
+	color: var(--clr-dark);
+	font-size: 1.5rem;
+	width: max-content;
+	align-self: center;
+	box-shadow: 0.2rem 0.2rem 0.2rem #484747;
+}
+
+.btn:hover {
+	transform: scale(1.05);
+	transition: transform 150ms ease;
+}
+
+.navbar > .btn {
+	margin-right: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+	.navbar > .btn {
+		display: none;
+	}
+}
 
 .container {
 	width: 100vw;
