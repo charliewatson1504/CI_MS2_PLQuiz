@@ -1,122 +1,162 @@
 [
   {
-    "question": "Who won the Euro 2020 tournament?",
-    "option1": "Italy",
-    "option2": "Poland",
-    "option3": "England",
-    "option4": "Germany",
+    "question": "In the 1994-95 season, when John Lyall quit as Ipswich Town manager, George Burley replaced him, but from which club did Burley move?",
+    "option1": "Ipswich",
+    "option2": "Colchester",
+    "option3": "Notts County",
+    "option4": "Barnet",
+    "answer": 2
+  },
+  {
+    "question": "How many clubs based in London played in the first FA premier League in season 1992-93?",
+    "option1": "5",
+    "option2": "9",
+    "option3": "2",
+    "option4": "6",
+    "answer": 4
+  },
+  {
+    "question": "Who is the gifted striker who scored 10 hat tricks plus one five goal effort during his illustrious Premiership career?",
+    "option1": "Alan Shearer",
+    "option2": "Robbie Fowler",
+    "option3": "Thierry Henry",
+    "option4": "Ian Wright",
     "answer": 1
   },
-   {
-    "question": "In which stadium was the final played?",
-    "option1": "Wembley Stadium",
-    "option2": "Stadio Olimpico",
-    "option3": "Olympic Stadium",
-    "option4": "Krestovsky Stadium",
+  {
+    "question": "Who was the Premiership's top scorer in 1993/94, the season Manchester United won the league?",
+    "option1": "Les Ferdinand",
+    "option2": "Andy Cole",
+    "option3": "Alan Shearer",
+    "option4": "Robbie Fowler",
+    "answer": 2
+  },
+  {
+    "question": "Formerly Gold Coast, which African country is the birthplace of hard tackling defender or midfielder Michael Essien?",
+    "option1": "Cameroon",
+    "option2": "Nigeria",
+    "option3": "Ghana",
+    "option4": "Ivory Coast",
+    "answer": 3
+  },
+  {
+    "question": "Playing for a team situated in the north east of England, which player finished as top goal scorer in the 1999-2000 season?",
+    "option1": "Alan Shearer",
+    "option2": "Dwight Yorke",
+    "option3": "Andy Cole",
+    "option4": "Kevin Phillips",
+    "answer": 4
+  },
+  {
+    "question": "Shay Given made his international football debut vs. Russia in 1996, for which country?",
+    "option1": "Wales",
+    "option2": "Scotland",
+    "option3": "Republic of Ireland",
+    "option4": "Northern Ireland",
+    "answer": 3
+  },
+  {
+    "question": "Dmitri Kharine played in the Premier League, but which team did he play for?",
+    "option1": "Arsenal",
+    "option2": "Chelsea",
+    "option3": "Tottenham",
+    "option4": "Wigan",
+    "answer": 2
+  },
+  {
+    "question": "Gianfranco Zola joined Chelsea in November 1996 in a transfer from which Italian team?",
+    "option1": "Parma",
+    "option2": "Emploi",
+    "option3": "Napoli",
+    "option4": "Sampdoria",
     "answer": 1
   },
-   {
-    "question": "Which team was ranked highest going into the tournament?",
+  {
+    "question": "Which team were the 2001-02 League Champions?",
+    "option1": "Liverpool",
+    "option2": "Manchester United",
+    "option3": "Arsenal",
+    "option4": "Newcastle United",
+    "answer": 3
+  },
+  {
+    "question": "Which club is nicknamed the toffees?",
+    "option1": "Derby County",
+    "option2": "Middlesbough",
+    "option3": "Everton",
+    "option4": "West Ham United",
+    "answer": 3
+  },
+  {
+    "question": "In which year did the FA Premier League begin?",
+    "option1": "1990",
+    "option2": "1991",
+    "option3": "1992",
+    "option4": "1993",
+    "answer": 3
+  },
+  {
+    "question": "Defender Pablo Zabaleta wears the famous light blue and white stripes of which South American country?",
+    "option1": "Peru",
+    "option2": "Brazil",
+    "option3": "Argentina",
+    "option4": "Uruguay",
+    "answer": 3
+  },
+  {
+    "question": "Brad Friedel made his international debut in 1992 for which country?",
     "option1": "England",
-    "option2": "Italy",
-    "option3": "Belgium",
-    "option4": "Germany",
+    "option2": "Sweden",
+    "option3": "USA",
+    "option4": "Canada",
     "answer": 3
   },
-   {
-    "question": "Who refereed the final of Euro 2020?",
-    "option1": "Orel Grinfeld",
-    "option2": "Bjorn Kuipers",
-    "option3": "Danny Makkelie",
-    "option4": "Sergei Karasev",
+  {
+    "question": "Ludìk Miklosko was goalkeeper at which club when the Premier League was first contested in 1992?",
+    "option1": "Coventry City",
+    "option2": "West Ham United",
+    "option3": "Nottingham Forest",
+    "option4": "Sheffield Wednesday",
     "answer": 2
   },
-   {
-    "question": "Where did the opening ceremony take place?",
-    "option1": "Rome",
-    "option2": "London",
-    "option3": "Madrid",
-    "option4": "Paris",
-    "answer": 1
-  },
-   {
-    "question": "Along with Patrik Schick, who scored 5 goals at Euro 2020?",
-    "option1": "Harry Kane",
-    "option2": "Karim Benzema",
-    "option3": "Romelu Lukaku",
-    "option4": "Christiano Ronaldo",
-    "answer": 4
-  },
-   {
-    "question": "Who won player of the tournament?",
-    "option1": "Kyle Walker",
-    "option2": "Pedri",
-    "option3": "Romelu Lukaku",
-    "option4": "Gianluigi Donnarumma",
-    "answer": 4
-  },
-   {
-    "question": "Which company created the match ball for Euro 2020?",
-    "option1": "Adidas",
-    "option2": "Nike",
-    "option3": "Umbro",
-    "option4": "Reebok",
-    "answer": 1
-  },
-   {
-    "question": "What drink was removed by Christiano Ronaldo in his press conference",
-    "option1": "Pepsi",
-    "option2": "Coca Cola",
-    "option3": "Irn Bru",
-    "option4": "Dr Pepper",
-    "answer": 2
-  },
-   {
-    "question": "How many goals were scored on 'Magic Monday'?",
-    "option1": "11",
-    "option2": "13",
-    "option3": "14",
-    "option4": "16",
+  {
+    "question": "Which Arsenal footballer was the second highest goal scorer in the 2002-03 season?",
+    "option1": "Ashley Cole",
+    "option2": "Dennis Bergkamp",
+    "option3": "Thierry Henry",
+    "option4": "Martin Keown",
     "answer": 3
   },
-   {
-    "question": "What record was broken at this tournament for any European Championship since the introduction of the group stage in 1980?",
-    "option1": "Most clean sheets",
-    "option2": "Worst discipline",
-    "option3": "Highest attendance",
-    "option4": "Most goals scored",
+  {
+    "question": "Swindon Town first appeared in the Premier League in the 1993-94 season, and faced Sheffield United in the opening fixture. Which player scored Swindon's first ever goal in that League?",
+    "option1": "Martin Ling",
+    "option2": "Craig Maskell",
+    "option3": "Andy Mutch",
+    "option4": "John Moncur",
     "answer": 4
   },
-   {
-    "question": "What was the name of the official song for the tournament?",
-    "option1": "We love the animals",
-    "option2": "We are the people",
-    "option3": "We are the animals",
-    "option4": "We love the people",
-    "answer": 2
-  },
-   {
-    "question": "What was the name of the official mascot?",
-    "option1": "Skillzy",
-    "option2": "Ballzy",
-    "option3": "Glovezy",
-    "option4": "Bootzy",
-    "answer": 1
-  },
-   {
-    "question": "Who had the worst discipline of the tournament?",
-    "option1": "Ethan Ampadu",
-    "option2": "Marko Arnautovic",
-    "option3": "Grzegorz Krychowiak",
-    "option4": "Ezgjian Alioski",
+  {
+    "question": "Which player scored the first ever goal in the Premier League?",
+    "option1": "Dwight Yorke (Aston Villa)",
+    "option2": "Nigel Clough (Nottingham Forest)",
+    "option3": "Brian Deane (Sheffield United)",
+    "option4": "Matthew Le Tissier (Southampton)",
     "answer": 3
   },
-   {
-    "question": "How many own goals were scored in the tournament?",
-    "option1": "11",
-    "option2": "15",
-    "option3": "7",
-    "option4": "9",
-    "answer": 1
+  {
+    "question": "Which club finished bottom of the table in the first season of the FA Premier League?",
+    "option1": "Aston Villa",
+    "option2": "Portsmouth",
+    "option3": "Bradford City",
+    "option4": "Nottingham Forest",
+    "answer": 4
+  },
+  {
+    "question": "Which club was the first to score 1,000 goals in the Premiership?",
+    "option1": "Chelsea",
+    "option2": "Manchester United",
+    "option3": "Arsenal",
+    "option4": "Tottenham Hotspur",
+    "answer": 2
   }
 ]
