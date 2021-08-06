@@ -104,6 +104,39 @@ h4 {
 	background-size: cover;
 }
 
+.footer-container{
+	width: 100%;
+	border-top: 2px solid var(--clr-dark);
+	display: flex;
+	background: var(--clr-accent);
+}
+
+.footer-item {
+	width: 50%;
+	padding: 1rem 2rem;
+	align-self: center;
+	text-align: center;
+	color: var(--clr-light);
+}
+
+.footer-item > i {
+	font-size: 4rem;
+	padding: 0 2rem;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	.footer-item > i {
+		font-size: 2rem;
+	padding: 1rem 2rem;
+	}
+}
+
+.footer-item > i:hover {
+	transform: scale(1.05);
+	transition: transform 150ms ease;
+}
+
 .container {
 	width: 100vw;
 	height: 100vh;
