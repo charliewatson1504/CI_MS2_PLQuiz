@@ -65,7 +65,7 @@ h4 {
 }
 
 .nav-item:hover {
-	transform: scale(1.2);
+	transform: scale(1.05);
 	transition: transform 300ms ease-in-out;
 }
 
@@ -154,6 +154,13 @@ h4 {
 
 #stats-card-bg {
 	background: url(/assets/images/stats-card.webp) no-repeat center center;
+	height: 15rem;
+	width: 100%;
+	background-size: cover;
+}
+
+#twitter-card-bg {
+	background: url(/assets/images/twitter-card.webp) no-repeat center center;
 	height: 15rem;
 	width: 100%;
 	background-size: cover;
