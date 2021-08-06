@@ -108,3 +108,6 @@ The wireframes for the site were created in Adobe XD and are linked below for De
 1. <details><summary>Desktop</summary><img src="#"></details>
 2. <details><summary>Tablet</summary><img src="#"></details>
 3. <details><summary>Mobile</summary><img src="#"></details>
+
+Credit
+Fun trivia https://www.funtrivia.com/en/Sports/FA-Premier-League-1361.html - questions
