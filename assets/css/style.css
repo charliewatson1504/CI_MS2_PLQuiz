@@ -324,3 +324,27 @@ h4 {
 	background: rgb(177, 7, 7);
     color: #fff;
 }
+
+.row {
+    display: block;
+    text-align: center;
+}
+
+.quiz-end {
+    padding: 1rem;
+}
+
+.quiz-end a {
+    background: var(--gradient);
+    margin: 0 2rem 10rem 2rem;
+    font-size: 2rem;
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: bg-animation 20s infinite;
+}
+
+#final-score {
+    font-size: 6rem;
+    color: var(--clr-light);
+    text-shadow: 0.1rem 0.1rem 0.1rem #484747;
+}
