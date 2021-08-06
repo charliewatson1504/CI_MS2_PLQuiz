@@ -55,6 +55,8 @@ getANewQuestion = () => {
 	let progressBarWidth = (questionNumber/totalQuizQuestions) * 100;
 	console.log(progressBarWidth);
 	progressBarInner.style.width = `${progressBarWidth}%`;
+
+	questionsAvailable.splice(questionIndex, 1)
 };
 
 options.forEach((option) => {
@@ -65,13 +67,13 @@ options.forEach((option) => {
 		const answerToQuestion = userSelection.dataset['num'];
 		const answerClassApply = answerToQuestion == currentQuestion.answer ? 'right' : 'wrong';
 		const answerScoreApply = answerToQuestion == currentQuestion.answer ? pointsPerCorrectScore : 0;
-		userSelection.parentElement.classList.add(answerClassApply);
+		userSelection.classList.add(answerClassApply);
 		score += answerScoreApply;
 		scoreId.innerText = score;
 		setTimeout(() => {
-			userSelection.parentElement.classList.remove(answerClassApply);
+			userSelection.classList.remove(answerClassApply);
 			allowClick = true
 			getANewQuestion();
-		}, 1000);
+		}, 500);
 	});
 });
