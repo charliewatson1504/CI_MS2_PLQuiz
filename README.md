@@ -25,6 +25,7 @@
 - [Design Choices](#design-choices)
 	- [Colors](#colors)
 	- [Fonts](#fonts)
+	- [Images](#images)
 	- [Wireframes](#wireframes)
 		- [Homepage](#homepage)
 
@@ -41,6 +42,7 @@
 - [Design Choices](#design-choices)
 	- [Colors](#colors)
 	- [Fonts](#fonts)
+	- [Images](#images)
 	- [Wireframes](#wireframes)
 		- [Homepage](#homepage)
 
@@ -92,6 +94,11 @@ With this site I want to primarily create an interactive quiz based on the Euro 
 
 ![Colour Pallette](#)
 ## Fonts
+
+## Images
+
+Photo by <a href="https://unsplash.com/@viennachanges?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vienna Reyes</a> on <a href="https://unsplash.com/s/photos/football-stadium?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 ## Wireframes
 The wireframes for the site were created in Adobe XD and are linked below for Desktop, Tablet and Mobile devices.
