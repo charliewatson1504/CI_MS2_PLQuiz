@@ -1,4 +1,4 @@
-# Euro 2020 Trivia Quiz
+# Premier League Trivia Quiz
 
 **Interactive Frontend Development Milestone Project**
 
@@ -12,7 +12,7 @@
 
 # Table of Contents
 
-- [Euro 2020 Trivia Quiz](#euro-2020-trivia-quiz)
+- [Premier League Trivia Quiz](#premier-league-trivia-quiz)
 	- [Project Overview](#project-overview)
 - [Table of Contents](#table-of-contents)
 - [UX](#ux)
@@ -29,7 +29,7 @@
 	- [Wireframes](#wireframes)
 		- [Homepage](#homepage)
 
-- [Euro 2020 Trivia Quiz](#euro-2020-trivia-quiz)
+- [Premier League Trivia Quiz](#premier-league-trivia-quiz)
 	- [Project Overview](#project-overview)
 - [Table of Contents](#table-of-contents)
 - [UX](#ux)
@@ -59,13 +59,13 @@ The goal for this site is to provide a fun, interactive quiz that can be enjoyed
 1. As a **First Time Visitor** I want to be able to play an interactive quiz.
 2. As a **First Time Visitor** I want to know what feedback on my progress through the quiz.
 3. As a **First Time Visitor** I want to know what my score is at the end of the quiz.
-4. As a **First Time Visitor** I want to be able to see stats from the Euro2020 competition.
+4. As a **First Time Visitor** I want to be able to see stats from the Premier League.
 5. As a **First Time Visitor** I want to be able to know what popular football songs there are.
-6. As a **First Time Visitor** I want to be able to see what is being said about Euro2020 on social media.
+6. As a **First Time Visitor** I want to be able to see what is being said about Premier League on social media.
 
 ### Returning Visitor
 
-7. As a **Returning Visitor** I want to be able to see updated stats from the Euro2020 competition.
+7. As a **Returning Visitor** I want to be able to see updated stats from the Premier League.
 8. As a **Returning Visitor** I want to be able to play the quiz again and be asked different questions.
 
 ## Site Owner Goals
@@ -89,7 +89,7 @@ The goal for this site is to provide a fun, interactive quiz that can be enjoyed
 
 # Design Choices
 
-With this site I want to primarily create an interactive quiz based on the Euro 2020 football competition. In addition I want to bring in additional information from other sources and websites to provide a more interactive experience for the user. With that in mind the site still needs to look great and be responsive to different media screens. I don't want it to look cluttered so will go with a sleek minimal design that gains inspiration from the Euro 2020 competition colours and design itself.
+With this site I want to primarily create an interactive quiz based on the Premier League. In addition I want to bring in additional information from other sources and websites to provide a more interactive experience for the user. With that in mind the site still needs to look great and be responsive to different media screens. I don't want it to look cluttered so will go with a sleek minimal design that gains inspiration from the Premier League colours and design itself.
 ## Colors
 
 ![Colour Pallette](#)
