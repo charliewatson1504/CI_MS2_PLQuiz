@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-![Main Mockup](#)
+![Main Mockup](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/mockup/premier-league-mockup.png)
 
 [Link to live site](https://charliewatson1504.github.io/CI_MS2_PLQuiz/)
 
