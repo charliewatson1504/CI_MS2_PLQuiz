@@ -54,8 +54,7 @@
                             <h3 class="modal-title" id="feedbackModalLabel">Send Us Your Feedback</h3>
                             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <!-- Add in onsubmit="return sendMail(this);" to form element -->
-                        <form id="feedback-form">
+                        <form id="feedback-form" onsubmit="return sendMail(this);">
                             <div class="modal-body">
                                 <div class="form">
                                     <label for="name">Name: </label>
