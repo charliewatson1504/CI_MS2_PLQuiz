@@ -8,7 +8,7 @@ const feedbackFormCall = document.getElementById('feedback-form');
 
 function sendMail (feedbackForm) {
 	emailjs.init('user_qNvMIMV6zD18pi4TUdgwz')
-	emailjs.send('Outlook', 'premier_league', {
+	emailjs.send('service_lzcqdd6', 'premier_league', {
 		'from_name': feedbackForm.name.value,
 		'from_email': feedbackForm.email.value,
 		'message': feedbackForm.feedback.value
@@ -17,7 +17,8 @@ function sendMail (feedbackForm) {
 			success();
 		},
 		function (error) {
-			console.log('Failed to send', error)
+			console.log('Failed to send', error);
+			failed();
 		}
 	);
 	return false;
@@ -27,6 +28,16 @@ function success () {
 	feedbackFormCall.innerHTML = 
 	`<div class="modal-body">
 		Thank you for your feedback!
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	</div>`
+};
+
+function failed () {
+	feedbackFormCall.innerHTML = 
+	`<div class="modal-body">
+		Something went wrong please close and try again
 	</div>
 	<div class="modal-footer">
 		<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

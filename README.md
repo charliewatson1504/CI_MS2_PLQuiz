@@ -6,7 +6,7 @@
 
 ![Main Mockup](#)
 
-[Link to live site](#)
+[Link to live site](https://charliewatson1504.github.io/CI_MS2_PLQuiz/)
 
 ---
 
