@@ -22,7 +22,7 @@ beginQuiz = () => {
 	getANewQuestion();
 };
 
-fetch('https://charliewatson1504.github.io/CI_MS2_PLQuizassets/js/questions.json')
+fetch('https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/js/questions.json')
 	.then((res) => {
 		return res.json();
 	})
