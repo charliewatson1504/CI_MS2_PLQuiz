@@ -91,8 +91,9 @@ The goal for this site is to provide a fun, interactive quiz that can be enjoyed
 
 With this site I want to primarily create an interactive quiz based on the Premier League. In addition I want to bring in additional information from other sources and websites to provide a more interactive experience for the user. With that in mind the site still needs to look great and be responsive to different media screens. I don't want it to look cluttered so will go with a sleek minimal design that gains inspiration from the Premier League colours and design itself.
 ## Colors
+Color scheme has been kept minimal so that the user is not overwhelmed when playing the game or looking at the information. An accent color of a light blue was used throughout to keep a consistent look and feel as the user navigates through the site.
 
-![Colour Pallette](#)
+![Colour Pallette](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/mockup/premier-league-mockup.png)
 ## Fonts
 
 ## Images
