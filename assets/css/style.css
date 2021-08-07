@@ -126,7 +126,7 @@ h4 {
 }
 
 #homepage-hero {
-	background: url(/assets/images/homepage-hero.webp) no-repeat center center;
+	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/homepage-hero.webp) no-repeat center center;
 	height: 45rem;
 	width: 100%;
 	background-size: cover;
@@ -179,21 +179,21 @@ h4 {
 }
 
 #stats-card-bg {
-	background: url(/assets/images/stats-card.webp) no-repeat center center;
+	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/stats-card.webp) no-repeat center center;
 	height: 15rem;
 	width: 100%;
 	background-size: cover;
 }
 
 #twitter-card-bg {
-	background: url(/assets/images/twitter-card.webp) no-repeat center center;
+	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/twitter-card.webp) no-repeat center center;
 	height: 15rem;
 	width: 100%;
 	background-size: cover;
 }
 
 #quiz-card-bg {
-	background: url(/assets/images/quiz-card.webp) no-repeat center center;
+	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/quiz-card.webp) no-repeat center center;
 	height: 15rem;
 	width: 100%;
 	background-size: cover;
@@ -308,7 +308,7 @@ h4 {
 }
 
 .quiz-hero {
-    background: url(/assets/images/quiz-hero.webp) no-repeat center center;
+    background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/quiz-hero.webp) no-repeat center center;
     width: 100%;
     height: 30rem;
     text-align: center;
@@ -451,7 +451,7 @@ h4 {
 }
 
 #err404-card-bg {
-	background: url(/assets/images/404.webp) no-repeat center center;
+	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/404.webp) no-repeat center center;
 	height: 15rem;
 	width: 100%;
 	background-size: cover;
