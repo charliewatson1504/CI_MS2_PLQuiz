@@ -93,7 +93,7 @@ With this site I want to primarily create an interactive quiz based on the Premi
 ## Colors
 Color scheme has been kept minimal so that the user is not overwhelmed when playing the game or looking at the information. An accent color of a light blue was used throughout to keep a consistent look and feel as the user navigates through the site.
 
-![Colour Pallette](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/mockup/color-pallet.png)
+![Colour Pallette](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/features/color-pallet.png)
 ## Fonts
 I have used Noto Sans JP for the body text and Roboto for the headers. Both fonts are from google fonts and compliment each other well. I have used sans-serif as a back up font should the browser the user is using cannot load the google fonts.
 
