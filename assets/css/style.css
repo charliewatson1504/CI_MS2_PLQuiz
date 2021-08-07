@@ -281,12 +281,20 @@ h4 {
 	align-items: center;
 	max-width: 80rem;
 	margin: 0 auto;
-    background: var(--clr-accent);
-    padding: 0 6rem;
+   	 background: var(--clr-accent);
+    	padding: 0 6rem;
 }
 
 .container > * {
 	width: 100%;
+}
+
+.scroll {
+	overflow: scroll;
+}
+
+.container.scroll {
+	align-items: flex-start;
 }
 
 #quiz-close {
