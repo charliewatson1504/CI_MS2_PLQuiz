@@ -73,6 +73,22 @@ h4 {
 	border-bottom: 2px solid #fff;
 }
 
+/* Modal */
+
+.form {
+    margin-bottom: 1rem;
+}
+
+.form label {
+    width: 20%;
+    vertical-align: top;
+}
+
+.form input,
+.form textarea {
+    width: 60%;
+}
+
 /* Buttons */
 
 .btn {
@@ -97,6 +113,16 @@ h4 {
 	.navbar > .btn {
 		display: none;
 	}
+}
+
+.modal-footer > .btn-primary {
+    background-color: green;
+    color: var(--clr-light);
+}
+
+.modal-footer > .btn-secondary {
+    background-color: red;
+    color: var(--clr-light);
 }
 
 #homepage-hero {
