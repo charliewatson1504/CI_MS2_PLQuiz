@@ -24,22 +24,31 @@ function sendMail (feedbackForm) {
 	return false;
 };
 
+function loader () {
+	feedbackFormCall.innerHTML = 
+	`<div class="modal-body">
+	<div class="loader"></div>
+	</div>`
+}
+
 function success () {
 	feedbackFormCall.innerHTML = 
 	`<div class="modal-body">
-		Thank you for your feedback!
+	Thank you for your feedback!
 	</div>
 	<div class="modal-footer">
-		<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 	</div>`
 };
 
 function failed () {
 	feedbackFormCall.innerHTML = 
 	`<div class="modal-body">
-		Something went wrong please close and try again
+	Something went wrong please close and try again
 	</div>
 	<div class="modal-footer">
-		<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 	</div>`
-}
+};
+
+loader();
