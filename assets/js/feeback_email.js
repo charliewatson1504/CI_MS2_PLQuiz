@@ -8,7 +8,7 @@ const feedbackFormCall = document.getElementById('feedback-form');
 
 function sendMail (feedbackForm) {
 	emailjs.init('user_qNvMIMV6zD18pi4TUdgwz')
-	emailjs.send('outlook', 'premier_league', {
+	emailjs.send('Outlook', 'premier_league', {
 		'from_name': feedbackForm.name.value,
 		'from_email': feedbackForm.email.value,
 		'message': feedbackForm.feedback.value
