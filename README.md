@@ -95,6 +95,7 @@ Color scheme has been kept minimal so that the user is not overwhelmed when play
 
 ![Colour Pallette](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/mockup/premier-league-mockup.png)
 ## Fonts
+I have used Noto Sans JP for the body text and Roboto for the headers. Both fonts are from google fonts and compliment each other well. I have used sans-serif as a back up font should the browser the user is using cannot load the google fonts.
 
 ## Images
 
