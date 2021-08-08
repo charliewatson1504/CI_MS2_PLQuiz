@@ -14,3 +14,13 @@ function getData(url){
 		xhr.send();
 	});
 };
+
+const promise = getData("https://api-football-v1.p.rapidapi.com/v3/standings?season=2020&league=39");
+promise.then(function(tables){
+	console.log(tables);
+	return getData("https://api-football-v1.p.rapidapi.com/v3/fixtures?league=39&season=2021");
+}).then(function(fixtures){
+	console.log(fixtures);
+}).catch(function(error){
+	console.log(error);
+});
