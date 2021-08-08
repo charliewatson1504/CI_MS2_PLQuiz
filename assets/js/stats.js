@@ -1,4 +1,6 @@
 const tableBtn = document.getElementById('table-btn');
+const table2020Btn = document.getElementById('btn-2020');
+const table2021Btn = document.getElementById('btn-2021');
 const fixturesBtn = document.getElementById('fixtures-btn');
 const tableElement = document.getElementById('table-list')
 
@@ -12,6 +14,16 @@ let fixtures = [];
 let date = [];
 let time = [];
 let events = [];
+
+tableBtn.addEventListener('click', function(){
+	unhide(document.getElementById('seasons'))
+});
+table2020Btn.addEventListener('click', getTableData2020);
+table2021Btn.addEventListener('click', getTableData2021);
+fixturesBtn.addEventListener('click', getFixtureData);
+fixturesBtn.addEventListener('click', function(){
+	hide(document.getElementById('seasons'));
+});
 
 function getTableData2020(){
 	const xhr = new XMLHttpRequest();
@@ -52,11 +64,12 @@ function getTableData2020(){
 		};
 	};
 	xhr.send();
+	return ;
 };
 
 function getTableData2021(){
 	const xhr = new XMLHttpRequest();
-	xhr.open("GET", "https://thesportsdb.p.rapidapi.com/lookuptable.php?s=2021-2020&l=4328");
+	xhr.open("GET", "https://thesportsdb.p.rapidapi.com/lookuptable.php?s=2021-2022&l=4328");
 	xhr.setRequestHeader("x-rapidapi-key", "6ac09b72d5msh34d2f29a0d7e971p11ca0djsnf30428cae1c6");
 	xhr.setRequestHeader("x-rapidapi-host", "thesportsdb.p.rapidapi.com");
 	xhr.onload = function(){
@@ -91,6 +104,7 @@ function getTableData2021(){
 		};
 	};
 	xhr.send();
+	return ;
 };
 
 function getFixtureData(){
@@ -122,4 +136,15 @@ function getFixtureData(){
 		};
 	};
 	xhr.send();
+	return ;
+};
+
+function unhide (element) {
+	element.classList.remove('hidden');
+	return ;
+};
+
+function hide (element) {
+	element.classList.add('hidden');
+	return ;
 };
