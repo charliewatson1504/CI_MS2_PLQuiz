@@ -62,16 +62,24 @@ function getTableData2021(){
 			played = tablesLoaded.table.map(element => element.intPlayed);
 			points = tablesLoaded.table.map(element => element.intPoints);
 			form = tablesLoaded.table.map(element => element.strForm);
+			tableElement.innerHTML = `
+			<tr>
+			<th>Position</th>
+			<th>Team</th>
+			<th>Badge</th>
+			<th>Played</th>
+			<th>Points</th>
+			<th>Form</th>
+			</tr>`
 			for (i = 0; i < rank.length; i++){
 				tableElement.innerHTML += `
 				<td>${rank[i]}</td>
-				<td>${teams[i]}</td>
 				<td><img src="${badge[i]}"</td>
+				<td>${teams[i]}</td>
 				<td>${played[i]}</td>
 				<td>${points[i]}</td>
 				<td>${form[i]}</td>`;
 				}
-				console.log(tablesLoaded);
 		} else{
 			console.log(xhr.statusText);
 		};
