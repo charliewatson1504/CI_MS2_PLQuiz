@@ -4,7 +4,7 @@ const scoreId = document.getElementById('score-ID');
 const questionNumberId = document.getElementById('question-number')
 const progressBarInner = document.getElementById('progress-bar-inner')
 const pointsPerCorrectScore = 50;
-const totalQuizQuestions = 5;
+const totalQuizQuestions = 10;
 
 
 let currentQuestion = {};
