@@ -5,7 +5,13 @@ const tableElement = document.getElementById('table-list')
 let rank = [];
 let teams = [];
 let badge = [];
+let played = [];
+let points = [];
+let form = [];
 let fixtures = [];
+let date = [];
+let time = [];
+let events = [];
 
 function getTableData2020(){
 	const xhr = new XMLHttpRequest();
@@ -95,7 +101,6 @@ function getFixtureData(){
 	xhr.onload = function(){
 		if(xhr.status == 200){
 			let fixturesLoaded = JSON.parse(xhr.response);
-			console.log(fixturesLoaded);
 			date = fixturesLoaded.events.map(element => element.dateEventLocal);
 			time = fixturesLoaded.events.map(element => element.strTimeLocal);
 			events = fixturesLoaded.events.map(element => element.strEvent);
@@ -118,4 +123,3 @@ function getFixtureData(){
 	};
 	xhr.send();
 };
-getFixtureData();
