@@ -14,6 +14,7 @@ let allowClick = true;
 let score = 0;
 
 let questions = [];
+let questionAndAnswer = [];
 
 beginQuiz = () => {
 	questionsAvailable = [...questions];
@@ -53,7 +54,6 @@ getANewQuestion = () => {
 	questionNumberId.innerHTML = `Question ${questionNumber} of ${totalQuizQuestions}`;
 
 	let progressBarWidth = (questionNumber/totalQuizQuestions) * 100;
-	console.log(progressBarWidth);
 	progressBarInner.style.width = `${progressBarWidth}%`;
 
 	questionsAvailable.splice(questionIndex, 1)
@@ -70,6 +70,14 @@ options.forEach((option) => {
 		userSelection.classList.add(answerClassApply);
 		score += answerScoreApply;
 		scoreId.innerText = score;
+		let currentQuestionAndAnswer = {
+			question: currentQuestion.question,
+			answer: userSelection.innerText,
+			rightOrWrong: answerClassApply
+		};
+		questionAndAnswer.push(currentQuestionAndAnswer);
+		let questionAndAnswerToLocalStorage = JSON.stringify(questionAndAnswer);
+		localStorage.setItem('qAndA', questionAndAnswerToLocalStorage);
 		setTimeout(() => {
 			userSelection.classList.remove(answerClassApply);
 			allowClick = true
