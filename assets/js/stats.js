@@ -96,19 +96,26 @@ function getFixtureData(){
 		if(xhr.status == 200){
 			let fixturesLoaded = JSON.parse(xhr.response);
 			console.log(fixturesLoaded);
-			// date = fixturesLoaded.events.map(element => element.intRank);
-			// time = fixturesLoaded.events.map(element => element.strTeam);
-			// home = fixturesLoaded.events.map(element => element.strTeamBadge);
-			// away = fixturesLoaded.events.map(element => element.strTeamBadge);
-			// for (i = 0; i < rank.length; i++){
-			// 	tableElement.innerHTML += `<td>${date[i]} @ ${time[i]}</td><td>${home[i]} vs ${away[i]}</td>`;
-			// 	}
-			// 	console.log(fixturesLoaded);
+			date = fixturesLoaded.events.map(element => element.dateEventLocal);
+			time = fixturesLoaded.events.map(element => element.strTimeLocal);
+			events = fixturesLoaded.events.map(element => element.strEvent);
+			tableElement.innerHTML = `
+			<tr>
+			<th>Date and Time</th>
+			<th>Teams</th>
+			</tr>`
+			for (i = 0; i < date.length; i++){
+				tableElement.innerHTML += `
+				<tr>
+				<td class="date time">${date[i]} @ ${time[i]}</td>
+				<td>${events[i]}</td>
+				</tr>
+				`;
+				}
 		} else{
 			console.log(xhr.statusText);
 		};
 	};
 	xhr.send();
 };
-getTableData2020();
 getFixtureData();
