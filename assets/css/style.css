@@ -534,6 +534,7 @@ h4 {
 #stats {
 	overflow: scroll;
 	align-items: flex-start;
+	height: 80vh;
 }
 
 @media screen and (max-width: 576px) {
