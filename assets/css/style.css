@@ -3,7 +3,7 @@
 :root {
 	font-size: 62.5%;
 	--clr-dark: #484747;
-	--clr-accent: #27A7B7;
+	--clr-accent: #1f79b4;
 	--clr-light: #fff;
 
     --gradient: linear-gradient(90deg, #6eb0fa, #7fbef9, #93ccf8, #abd9f7, #cee8f6)
