@@ -289,8 +289,8 @@ The feedback modal allows the user to provide feedback to the site owner on thei
 ## Feature 6 - NavBar
 The navigation bar allows the user to easily navigate around the site. It is made using the bootstrap component NavBar. It is responsive to the screen it is being viewed on and will collapse when the screen size is more of tablet/mobile size.
 
-![Feature 6 Img 1](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/features/feature-6-img1.png)
-![Feature 6 Img 2](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/features/feature-6-img2.png)
+![Feature 6 Img 1](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/features/feature-6-img-1.png)
+![Feature 6 Img 2](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/features/feature-6-img-2.png)
 
 ### User Stories covered by the feature
 16- As a **Site Owner** I want the site to be responsive to whatever device the user is using.
