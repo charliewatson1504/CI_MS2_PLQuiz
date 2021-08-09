@@ -31,6 +31,15 @@
 - [Technologies Used](#technologies-used)
 	- [Languages](#languages)
 	- [Frameworks, libraries and other tools](#frameworks-libraries-and-other-tools)
+- [Features](#features)
+	- [Feature 1 - Home Page](#feature-1---home-page)
+		- [Section 1 -](#section-1--)
+		- [User Stories covered by this feature](#user-stories-covered-by-this-feature)
+- [Validation](#validation)
+	- [HTML Validation](#html-validation)
+	- [CSS Validation](#css-validation)
+	- [Accessibility Validation](#accessibility-validation)
+	- [Performance](#performance)
 
 # UX
 
@@ -130,6 +139,38 @@ Used to embed a map to the salon located on the contact us page
 Used to create a mulit-device mock-up that is shown at the top of the README file.
 - [Convertio](https://convertio.co/png-webp/)
 Used to convert any PNG image to WEBP to improve the sites performance.
+
+# Features
+This site has ?? pages with ?? features
+## Feature 1 - Home Page
+The homepage has ?? main sections to it:
+
+### Section 1 -
+
+![Feature 1 Section 1](#)
+
+### User Stories covered by this feature
+3- As a First Time Visitor
+
+# Validation
+## HTML Validation
+[W3c Markup Validation Service](https://validator.w3.org/) has been used to validate all of the HTML code within the site. All pages have passed with 0 errors and 0 warnings. Click on the below to see each screenshot:
+1. <details><summary>Homepage</summary><img src="#"></details>
+
+## CSS Validation
+[W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the site. The stylesheet.css file returned with 0 errors. When running on the whole page it returned with 17 errors all of which can be attributed to Bootstrap v5.0. See below link to screenshot:
+1. <details><summary>Whole Page</summary><img src="#"></details>
+
+2. <details><summary>CSS Stylesheet</summary><img src="#"></details>
+
+## Accessibility Validation
+[WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) has been used to validate the site to the recognised standards when it comes to accessibility. All pages have passed with 0 errors. Click on the below to see each screenshot:
+1. <details><summary>Homepage</summary><img src="#"></details>
+
+## Performance
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to measure each pages performance. Click on the below to see each screenshot: 
+1. <details><summary>Homepage</summary><img src="#"></details>
+
 
 
 Credit
