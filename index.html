@@ -58,16 +58,19 @@
 						<div class="modal-body">
 							<div class="form">
 								<label for="name">Name: </label>
-								<input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" required>
+								<input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" onblur="validateFormName()" required>
 							</div>
+							<div id="feedbackName" class="validate"></div>
 							<div class="form">
 								<label for="email">Email: </label>
-								<input type="email" name="email" id="email" placeholder="Enter Email" class="forminput" required>
+								<input type="email" name="email" id="email" placeholder="Enter Email" class="forminput" onblur="validateFormEmail()" required>
 							</div>
+							<div id="feedbackEmail" class="validate"></div>
 							<div class="form">
 								<label for="feedback">Feedback: </label>
-								<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" required></textarea>
+								<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" onblur="validateFormText()" required></textarea>
 							</div>
+							<div id="feedbackText" class="validate"></div>
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>

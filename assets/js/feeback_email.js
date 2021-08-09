@@ -24,6 +24,44 @@ function sendMail (feedbackForm) {
 	return false;
 };
 
+// formName.addEventListener('blur', validateFormName);
+
+function validateFormName() {
+	let formName = document.getElementById('name').value;
+	let validateName = document.getElementById('feedbackName');
+	if (formName === ''){
+		validateName.innerText = 'Enter your name';
+		validateName.style.color = 'red';
+	} else {
+		validateName.innerText = '';
+	}
+
+};
+
+function validateFormEmail() {
+	let formEmail = document.getElementById('email').value;
+	let validateEmail = document.getElementById('feedbackEmail');
+	// credit - https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
+	const emailFormat =  /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	if (emailFormat.test(String(formEmail).toLowerCase())){
+		validateEmail.innerText = '';
+	} else {
+		validateEmail.innerText = 'Enter a valid email';
+		validateEmail.style.color = 'red';
+	}
+};
+
+function validateFormText() {
+	let formFeedback = document.getElementById('feedback').value;
+	let validateFeedback = document.getElementById('feedbackText');
+	if (formFeedback === ''){
+		validateFeedback.innerText = 'Enter your feedback';
+		validateFeedback.style.color = 'red';
+	} else {
+		validateFeedback.innerText = '';
+	}
+};
+
 function loader () {
 	feedbackFormCall.innerHTML = 
 	`<div class="modal-body">

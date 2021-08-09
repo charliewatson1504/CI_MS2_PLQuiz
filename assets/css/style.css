@@ -88,10 +88,6 @@ h4 {
 
 /* Modal */
 
-.form {
-    margin-bottom: 1rem;
-}
-
 .form label {
     width: 20%;
     vertical-align: top;
@@ -100,6 +96,13 @@ h4 {
 .form input,
 .form textarea {
     width: 60%;
+}
+
+.validate {
+	height: 4rem;
+	width: 100%;
+	text-align: center;
+	padding: 1rem 0;
 }
 
 /* Buttons */
