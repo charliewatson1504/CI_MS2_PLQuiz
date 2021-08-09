@@ -38,6 +38,7 @@
 - [Validation](#validation)
 	- [HTML Validation](#html-validation)
 	- [CSS Validation](#css-validation)
+	- [JavaScript Validation](#javascript-validation)
 	- [Accessibility Validation](#accessibility-validation)
 	- [Performance](#performance)
 
@@ -155,21 +156,45 @@ The homepage has ?? main sections to it:
 # Validation
 ## HTML Validation
 [W3c Markup Validation Service](https://validator.w3.org/) has been used to validate all of the HTML code within the site. All pages have passed with 0 errors and 0 warnings. Click on the below to see each screenshot:
-1. <details><summary>Homepage</summary><img src="#"></details>
+1. <details><summary>Homepage</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/html-validation/html-validation-index.png"></details>
+2. <details><summary>Stats</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/html-validation/html-validation-stats.png"></details>
+3. <details><summary>Twitter</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/html-validation/html-validation-twitter.png"></details>
+4. <details><summary>Quiz</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/html-validation/html-validation-quiz.png"></details>
+5. <details><summary>Game</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/html-validation/html-validation-game.png"></details>
+6. <details><summary>Quiz-End</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/html-validation/html-validation-quiz-end.png"></details>
+7. <details><summary>404</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/html-validation/html-validation-404.png"></details>
 
 ## CSS Validation
-[W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the site. The stylesheet.css file returned with 0 errors. When running on the whole page it returned with 17 errors all of which can be attributed to Bootstrap v5.0. See below link to screenshot:
-1. <details><summary>Whole Page</summary><img src="#"></details>
+[W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the site. The stylesheet.css file returned with 0 errors. When running on the whole page it returned with 13 errors all of which can be attributed to Bootstrap v5.0. See below link to screenshot:
+1. <details><summary>Whole Page</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/css-validation/whole-site-css-validation.png"></details>
 
-2. <details><summary>CSS Stylesheet</summary><img src="#"></details>
+2. <details><summary>CSS Stylesheet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/css-validation/css-validation.png"></details>
 
+## JavaScript Validation
+[JSHint](https://jshint.com/) has been used to validate the JavaScript used in the site to the recognised standards when it comes to JavaScript. All pages have passed with 0 warnings. Click on the below to see each screenshot:
+1. <details><summary>feedback_email.js</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/javascript-validation/jshint-feedback-email-js.png"></details>
+2. <details><summary>game-end.js</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/javascript-validation/jshint-game-end-js.png"></details>
+3. <details><summary>game.js</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/javascript-validation/jshint-game-js.png"></details>
+4. <details><summary>stats.js</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/javascript-validation/jshint-stats-js.png"></details>
 ## Accessibility Validation
 [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) has been used to validate the site to the recognised standards when it comes to accessibility. All pages have passed with 0 errors. Click on the below to see each screenshot:
-1. <details><summary>Homepage</summary><img src="#"></details>
+1. <details><summary>Homepage</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-index.png"></details>
+2. <details><summary>Stats</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-stats.png"></details>
+3. <details><summary>Twitter</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-twitter.png"></details>
+4. <details><summary>Quiz</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-quiz.png"></details>
+5. <details><summary>Game</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-game.png"></details>
+6. <details><summary>Quiz-End</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-quiz-end.png"></details>
+7. <details><summary>404</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-404.png"></details>
 
 ## Performance
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to measure each pages performance. Click on the below to see each screenshot: 
-1. <details><summary>Homepage</summary><img src="#"></details>
+1. <details><summary>Homepage</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-index.png"></details>
+2. <details><summary>Stats</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-stats.png"></details>
+3. <details><summary>Twitter</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-twitter.png"></details>
+4. <details><summary>Quiz</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-quiz.png"></details>
+5. <details><summary>Game</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-game.png"></details>
+6. <details><summary>Quiz-End</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-quiz-end.png"></details>
+7. <details><summary>404</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-404.png"></details>
 
 
 
