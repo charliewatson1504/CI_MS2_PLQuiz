@@ -583,12 +583,12 @@ h4 {
 	border: 0.6px solid black;
 }
 
-.two-thirds {
-	width: 66%;
+.width50 {
+	width: 50%;
 }
 
-.one-third {
-	width: 33%;
+.width25 {
+	width: 25%;
 }
 
 .hidden {
