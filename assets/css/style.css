@@ -367,10 +367,6 @@ h4 {
     transition: transform 150ms ease;
 }
 
-.hidden {
-	display: none;
-}
-
 /* Progress Header */
 
 .progress-header {
@@ -500,7 +496,58 @@ h4 {
 	100% { transform: rotate(360deg); }
 }
 
+/* stats */
+
+.stats-btns {
+	max-width: 80rem;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.tab {
+	background: var(--clr-accent);
+	width: 100%;
+	margin: 0.1rem;
+	border: 1.25px solid #484747;
+	cursor: pointer;
+	background-size: 300%;
+	background-image: var(--gradient);
+	animation: bg-animation 20s infinite;
+}
+    
+    @keyframes bg-animation {
+	0% {background-position: left;}
+	50% {background-position: right;}
+	100% {background-position: left;}
+}
+
+
 #stats {
 	overflow: scroll;
 	align-items: flex-start;
+}
+
+#table-list {
+	background: var(--clr-light);
+	text-align: center;
+}
+
+#table-list th {
+	font-size: 2rem;
+	padding: 1rem 0;
+}
+
+#table-list td {
+	font-size: 1.25rem;
+}
+
+#table-list img {
+	height: 4rem;
+	width: 4rem;
+}
+
+.hidden {
+	display: none;
 }

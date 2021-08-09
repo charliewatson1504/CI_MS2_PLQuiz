@@ -18,6 +18,7 @@ let events = [];
 tableBtn.addEventListener('click', function(){
 	unhide(document.getElementById('seasons'))
 });
+
 table2020Btn.addEventListener('click', getTableData2020);
 table2021Btn.addEventListener('click', getTableData2021);
 fixturesBtn.addEventListener('click', getFixtureData);
@@ -42,8 +43,8 @@ function getTableData2020(){
 			tableElement.innerHTML = `
 			<tr>
 			<th>Position</th>
+			<th></th>
 			<th>Team</th>
-			<th>Badge</th>
 			<th>Played</th>
 			<th>Points</th>
 			<th>Form</th>
@@ -84,8 +85,8 @@ function getTableData2021(){
 			tableElement.innerHTML = `
 			<tr>
 			<th>Position</th>
+			<th></th>
 			<th>Team</th>
-			<th>Badge</th>
 			<th>Played</th>
 			<th>Points</th>
 			<th>Form</th>
