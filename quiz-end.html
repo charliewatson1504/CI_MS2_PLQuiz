@@ -34,6 +34,40 @@
             </div>
         </div>
 	</div>
+	<div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title" id="feedbackModalLabel">Send Us Your Feedback</h3>
+					<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<form id="feedback-form" onsubmit="return sendMail(this);">
+					<div class="modal-body">
+						<div class="form">
+							<label for="name">Name: </label>
+							<input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" onblur="validateFormName()" required>
+						</div>
+						<div id="feedbackName" class="validate"></div>
+						<div class="form">
+							<label for="email">Email: </label>
+							<input type="email" name="email" id="email" placeholder="Enter Email" class="forminput" onblur="validateFormEmail()" required>
+						</div>
+						<div id="feedbackEmail" class="validate"></div>
+						<div class="form">
+							<label for="feedback">Feedback: </label>
+							<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" onblur="validateFormText()" required></textarea>
+						</div>
+						<div id="feedbackText" class="validate"></div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn btn-primary">Submit Feedback</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/feedback_email.js"></script>
 	<script src="assets/js/game-end.js"></script>
 </body>
 </html>
