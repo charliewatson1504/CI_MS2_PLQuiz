@@ -190,6 +190,13 @@ h4 {
     }
 }
 
+@media screen and (max-width: 576px) {
+	.card {
+		margin: 1rem auto;
+		width: 95%;
+	}
+}
+
 .card:hover {
 	transform: scale(1.05);
 	transition: transform 250ms ease-in-out;
@@ -288,7 +295,7 @@ h4 {
 	max-width: 80rem;
 	margin: 0 auto;
    	 background: var(--clr-accent);
-    	padding: 0 6rem;
+    	padding: 0.5rem 6rem;
 }
 
 .container > * {
@@ -529,6 +536,13 @@ h4 {
 	align-items: flex-start;
 }
 
+@media screen and (max-width: 576px) {
+	#stats {
+		justify-content: flex-start;
+		padding: 0.25rem 0.25rem;
+	}
+}
+
 #table-list {
 	background: var(--clr-light);
 	text-align: center;
@@ -541,6 +555,7 @@ h4 {
 
 #table-list td {
 	font-size: 1.25rem;
+	padding: 0.5rem 0;
 }
 
 #table-list img {
