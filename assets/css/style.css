@@ -467,7 +467,7 @@ h4 {
 
 .quiz-end a {
     background: var(--gradient);
-    margin: 0 2rem 10rem 2rem;
+    margin: 0 2rem 5rem 2rem;
     font-size: 2rem;
     background-image: var(--gradient);
     background-size: 300%;
@@ -562,6 +562,33 @@ h4 {
 #table-list img {
 	height: 4rem;
 	width: 4rem;
+}
+
+/* quiz end page */
+
+#quiz-end {
+	overflow: scroll;
+	align-items: flex-start;
+}
+
+#q-and-a {
+	background: var(--clr-light);
+	margin-bottom: 2rem;
+}
+
+#q-and-a td,
+#q-and-a th {
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	border: 0.6px solid black;
+}
+
+.two-thirds {
+	width: 66%;
+}
+
+.one-third {
+	width: 33%;
 }
 
 .hidden {

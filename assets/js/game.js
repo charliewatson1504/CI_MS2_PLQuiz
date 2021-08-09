@@ -70,10 +70,12 @@ options.forEach((option) => {
 		userSelection.classList.add(answerClassApply);
 		score += answerScoreApply;
 		scoreId.innerText = score;
+		const rightAnswer = currentQuestion['option' + currentQuestion.answer];
 		let currentQuestionAndAnswer = {
 			question: currentQuestion.question,
 			answer: userSelection.innerText,
-			rightOrWrong: answerClassApply
+			rightOrWrong: answerClassApply,
+			correctAnswer: rightAnswer
 		};
 		questionAndAnswer.push(currentQuestionAndAnswer);
 		let questionAndAnswerToLocalStorage = JSON.stringify(questionAndAnswer);
