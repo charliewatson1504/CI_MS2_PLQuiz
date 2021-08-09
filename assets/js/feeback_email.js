@@ -51,4 +51,4 @@ function failed () {
 	</div>`
 };
 
-loader();
+feedbackFormCall.addEventListener('submit', loader);
