@@ -24,8 +24,6 @@ function sendMail (feedbackForm) {
 	return false;
 };
 
-// formName.addEventListener('blur', validateFormName);
-
 function validateFormName() {
 	let formName = document.getElementById('name').value;
 	let validateName = document.getElementById('feedbackName');
