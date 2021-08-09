@@ -7,7 +7,7 @@ Credit: Code Institute material "Sending Emails Using EmailJS"
 const feedbackFormCall = document.getElementById('feedback-form');
 
 function sendMail (feedbackForm) {
-	emailjs.init('user_qNvMIMV6zD18pi4TUdgwz')
+	emailjs.init('user_qNvMIMV6zD18pi4TUdgwz');
 	emailjs.send('service_lzcqdd6', 'premier_league', {
 		'from_name': feedbackForm.name.value,
 		'from_email': feedbackForm.email.value,
@@ -22,7 +22,7 @@ function sendMail (feedbackForm) {
 		}
 	);
 	return false;
-};
+}
 
 function validateFormName() {
 	let formName = document.getElementById('name').value;
@@ -34,7 +34,7 @@ function validateFormName() {
 		validateName.innerText = '';
 	}
 
-};
+}
 
 function validateFormEmail() {
 	let formEmail = document.getElementById('email').value;
@@ -47,7 +47,7 @@ function validateFormEmail() {
 		validateEmail.innerText = 'Enter a valid email';
 		validateEmail.style.color = 'red';
 	}
-};
+}
 
 function validateFormText() {
 	let formFeedback = document.getElementById('feedback').value;
@@ -58,13 +58,13 @@ function validateFormText() {
 	} else {
 		validateFeedback.innerText = '';
 	}
-};
+}
 
 function loader () {
 	feedbackFormCall.innerHTML = 
 	`<div class="modal-body">
 	<div class="loader"></div>
-	</div>`
+	</div>`;
 }
 
 function success () {
@@ -74,8 +74,8 @@ function success () {
 	</div>
 	<div class="modal-footer">
 	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-	</div>`
-};
+	</div>`;
+}
 
 function failed () {
 	feedbackFormCall.innerHTML = 
@@ -84,7 +84,7 @@ function failed () {
 	</div>
 	<div class="modal-footer">
 	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-	</div>`
-};
+	</div>`;
+}
 
 feedbackFormCall.addEventListener('submit', loader);
