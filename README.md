@@ -28,23 +28,9 @@
 	- [Images](#images)
 	- [Wireframes](#wireframes)
 		- [Homepage](#homepage)
-
-- [Premier League Trivia Quiz](#premier-league-trivia-quiz)
-	- [Project Overview](#project-overview)
-- [Table of Contents](#table-of-contents)
-- [UX](#ux)
-	- [Project Goals](#project-goals)
-	- [User Stories](#user-stories)
-		- [First Time Visitor](#first-time-visitor)
-		- [Returning Visitor](#returning-visitor)
-	- [Site Owner Goals](#site-owner-goals)
-	- [User Requirements and Expectations](#user-requirements-and-expectations)
-- [Design Choices](#design-choices)
-	- [Colors](#colors)
-	- [Fonts](#fonts)
-	- [Images](#images)
-	- [Wireframes](#wireframes)
-		- [Homepage](#homepage)
+- [Technologies Used](#technologies-used)
+	- [Languages](#languages)
+	- [Frameworks, libraries and other tools](#frameworks-libraries-and-other-tools)
 
 # UX
 
@@ -57,25 +43,27 @@ The goal for this site is to provide a fun, interactive quiz that can be enjoyed
 ### First Time Visitor
 
 1. As a **First Time Visitor** I want to be able to play an interactive quiz.
-2. As a **First Time Visitor** I want to know what feedback on my progress through the quiz.
+2. As a **First Time Visitor** I want feedback on where I am up to through the quiz.
 3. As a **First Time Visitor** I want to know what my score is at the end of the quiz.
-4. As a **First Time Visitor** I want to be able to see stats from the Premier League.
-5. As a **First Time Visitor** I want to be able to know what popular football songs there are.
+4. As a **First Time Visitor** I want to know what questions I got wrong and what the correct answer was at the end of the game.
+5. As a **First Time Visitor** I want to be able to see stats from the Premier League.
 6. As a **First Time Visitor** I want to be able to see what is being said about Premier League on social media.
+7. As a **First Time Visitor** I want to know if I have entered incorrect information.
 
 ### Returning Visitor
 
-7. As a **Returning Visitor** I want to be able to see updated stats from the Premier League.
-8. As a **Returning Visitor** I want to be able to play the quiz again and be asked different questions.
+8. As a **Returning Visitor** I want to be able to see updated stats from the Premier League.
+9. As a **Returning Visitor** I want to be able to play the quiz again and be asked different questions.
 
 ## Site Owner Goals
 
-9. As a **Site Owner** I want to be able to provide an interactive quiz.
-10. As a **Site Owner** I want to be able to provide feedback to the user when playing the quiz.
-11. As a **Site Owner** I want to be able to confirm the users score at the end of the quiz.
-12. As a **Site Owner** I want to be able to validate the data entered by the user.
-13. As a **Site Owner** I want to provide information from other sources to the user.
-14. As a **Site Owner** I want to be able to get feedback from the user.
+10. As a **Site Owner** I want to be able to provide an interactive quiz.
+11. As a **Site Owner** I want to be able to provide feedback to the user when playing the quiz.
+12. As a **Site Owner** I want to be able to confirm the users score at the end of the quiz.
+13. As a **Site Owner** I want to be able to validate the data entered by the user.
+14. As a **Site Owner** I want to provide information from other sources to the user.
+15. As a **Site Owner** I want to be able to get feedback from the user.
+16. As a **Site Owner** I want the site to be responsive to whatever device the user is using.
 
 ## User Requirements and Expectations
 
@@ -113,6 +101,36 @@ The wireframes for the site were created in Adobe XD and are linked below for De
 1. <details><summary>Desktop</summary><img src="#"></details>
 2. <details><summary>Tablet</summary><img src="#"></details>
 3. <details><summary>Mobile</summary><img src="#"></details>
+
+# Technologies Used
+## Languages
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+## Frameworks, libraries and other tools
+- [Git](https://git-scm.com/)
+Used for version control of the site and push code from VScode to Github
+- [Github](https://github.com/)
+Used as the remote repository to store the code. Github pages is also where the live site is hosted.
+- [Visual Studio Code](https://code.visualstudio.com/)
+Used as the IDE for writing the code and file management.
+- [Adobe XD](https://www.adobe.com/uk/products/xd.html)
+Used to create wireframes for the site.
+- [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)
+Used to edit and crop all image sizes on the site as original filesize were too large and affected performance.
+- [Google Fonts](https://fonts.google.com/)
+Used for Noto Sans JP and Roboto fonts that were used throughout the site.
+- [Font Awesome](https://fontawesome.com/)
+Used for various icons throughout the site.
+- [Bootstrap](https://getbootstrap.com/)
+Used for creating a responsive navigation bar used in every header of main site pages. Also used for creating a modal for a feedback form used on each of the main site pages.
+- [Google Maps](https://www.google.com/maps)
+Used to embed a map to the salon located on the contact us page
+- [Am I responsive](http://ami.responsivedesign.is/)
+Used to create a mulit-device mock-up that is shown at the top of the README file.
+- [Convertio](https://convertio.co/png-webp/)
+Used to convert any PNG image to WEBP to improve the sites performance.
+
 
 Credit
 Fun trivia https://www.funtrivia.com/en/Sports/FA-Premier-League-1361.html - questions
