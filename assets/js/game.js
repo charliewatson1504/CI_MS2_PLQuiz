@@ -1,8 +1,8 @@
 const question = document.getElementById('question');
 const options = Array.from(document.getElementsByClassName('option-text'));
 const scoreId = document.getElementById('score-ID');
-const questionNumberId = document.getElementById('question-number')
-const progressBarInner = document.getElementById('progress-bar-inner')
+const questionNumberId = document.getElementById('question-number');
+const progressBarInner = document.getElementById('progress-bar-inner');
 const pointsPerCorrectScore = 50;
 const totalQuizQuestions = 10;
 
@@ -46,7 +46,7 @@ getANewQuestion = () => {
 	question.innerText = currentQuestion.question;
 		
 	options.forEach((option) => {
-		const num = option.dataset['num'];
+		const num = option.dataset.num;
 		option.innerHTML = currentQuestion['option' + num];
 	});
 
@@ -56,7 +56,7 @@ getANewQuestion = () => {
 	let progressBarWidth = (questionNumber/totalQuizQuestions) * 100;
 	progressBarInner.style.width = `${progressBarWidth}%`;
 
-	questionsAvailable.splice(questionIndex, 1)
+	questionsAvailable.splice(questionIndex, 1);
 };
 
 options.forEach((option) => {
@@ -64,7 +64,7 @@ options.forEach((option) => {
 		if (!allowClick) return;
 		allowClick = false;
 		const userSelection = e.target;
-		const answerToQuestion = userSelection.dataset['num'];
+		const answerToQuestion = userSelection.dataset.num;
 		const answerClassApply = answerToQuestion == currentQuestion.answer ? 'right' : 'wrong';
 		const answerScoreApply = answerToQuestion == currentQuestion.answer ? pointsPerCorrectScore : 0;
 		userSelection.classList.add(answerClassApply);
@@ -82,7 +82,7 @@ options.forEach((option) => {
 		localStorage.setItem('qAndA', questionAndAnswerToLocalStorage);
 		setTimeout(() => {
 			userSelection.classList.remove(answerClassApply);
-			allowClick = true
+			allowClick = true;
 			getANewQuestion();
 		}, 500);
 	});
