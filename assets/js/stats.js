@@ -2,7 +2,7 @@ const tableBtn = document.getElementById('table-btn');
 const table2020Btn = document.getElementById('btn-2020');
 const table2021Btn = document.getElementById('btn-2021');
 const fixturesBtn = document.getElementById('fixtures-btn');
-const tableElement = document.getElementById('table-list')
+const tableElement = document.getElementById('table-list');
 
 let rank = [];
 let teams = [];
@@ -16,7 +16,7 @@ let time = [];
 let events = [];
 
 tableBtn.addEventListener('click', function(){
-	unhide(document.getElementById('seasons'))
+	unhide(document.getElementById('seasons'));
 });
 
 table2020Btn.addEventListener('click', getTableData2020);
@@ -48,7 +48,7 @@ function getTableData2020(){
 			<th>Played</th>
 			<th>Points</th>
 			<th>Form</th>
-			</tr>`
+			</tr>`;
 			for (i = 0; i < rank.length; i++){
 				tableElement.innerHTML += `
 				<tr>
@@ -62,11 +62,11 @@ function getTableData2020(){
 			}
 		} else{
 			console.log(xhr.statusText);
-		};
+		}
 	};
 	xhr.send();
 	return ;
-};
+}
 
 function getTableData2021(){
 	const xhr = new XMLHttpRequest();
@@ -90,7 +90,7 @@ function getTableData2021(){
 			<th>Played</th>
 			<th>Points</th>
 			<th>Form</th>
-			</tr>`
+			</tr>`;
 			for (i = 0; i < rank.length; i++){
 				tableElement.innerHTML += `
 				<td>${rank[i]}</td>
@@ -102,11 +102,11 @@ function getTableData2021(){
 				}
 		} else{
 			console.log(xhr.statusText);
-		};
+		}
 	};
 	xhr.send();
 	return ;
-};
+}
 
 function getFixtureData(){
 	const xhr = new XMLHttpRequest();
@@ -123,7 +123,7 @@ function getFixtureData(){
 			<tr>
 			<th>Date and Time</th>
 			<th>Teams</th>
-			</tr>`
+			</tr>`;
 			for (i = 0; i < date.length; i++){
 				tableElement.innerHTML += `
 				<tr>
@@ -134,18 +134,18 @@ function getFixtureData(){
 				}
 		} else{
 			console.log(xhr.statusText);
-		};
+		}
 	};
 	xhr.send();
 	return ;
-};
+}
 
 function unhide (element) {
 	element.classList.remove('hidden');
 	return ;
-};
+}
 
 function hide (element) {
 	element.classList.add('hidden');
 	return ;
-};
+}
