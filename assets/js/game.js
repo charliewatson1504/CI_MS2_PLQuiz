@@ -38,7 +38,7 @@ fetch('assets/js/questions.json')
 getANewQuestion = () => {
 	if (questionsAvailable.length === 0 || questionNumber >= totalQuizQuestions) {
 		localStorage.setItem('mostRecentScore', score);
-		return window.location.assign('/quiz-end.html');
+		return window.location.assign('quiz-end.html');
 	}
 
 	let questionIndex = Math.floor(Math.random() * questionsAvailable.length);
