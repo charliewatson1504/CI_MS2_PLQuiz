@@ -574,7 +574,7 @@ h4 {
 	align-items: flex-start;
 }
 
-#quiz-end {
+#quiz-end h2 {
 	color: var(--clr-light);
 }
 
