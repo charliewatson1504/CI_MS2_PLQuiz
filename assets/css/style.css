@@ -255,20 +255,21 @@ h4 {
 	color: var(--clr-light);
 }
 
-.footer-item > i {
+.footer-item > a > i {
 	font-size: 4rem;
 	padding: 0 2rem;
 	cursor: pointer;
+	color: var(--clr-light);
 }
 
 @media screen and (max-width: 768px) {
-	.footer-item > i {
+	.footer-item > a > i {
 		font-size: 2rem;
 	padding: 1rem 2rem;
 	}
 }
 
-.footer-item > i:hover {
+.footer-item > a > i:hover {
 	transform: scale(1.05);
 	transition: transform 150ms ease;
 }
