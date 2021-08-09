@@ -33,8 +33,17 @@
 	- [Frameworks, libraries and other tools](#frameworks-libraries-and-other-tools)
 - [Features](#features)
 	- [Feature 1 - Home Page](#feature-1---home-page)
-		- [Section 1 -](#section-1--)
+		- [Section 1 - Hero Image](#section-1---hero-image)
+		- [Section 2 - Info Cards](#section-2---info-cards)
 		- [User Stories covered by this feature](#user-stories-covered-by-this-feature)
+	- [Feature 2 - Stats Page](#feature-2---stats-page)
+		- [Section 1 - Load Buttons](#section-1---load-buttons)
+		- [Section 2 - League Table](#section-2---league-table)
+		- [Section 3 - Fixtures](#section-3---fixtures)
+		- [User Stories covered by this feature](#user-stories-covered-by-this-feature-1)
+	- [Feature 3 - Twitter Page](#feature-3---twitter-page)
+		- [Section 1 - Twitter Feed](#section-1---twitter-feed)
+		- [User Stories covered by this feature](#user-stories-covered-by-this-feature-2)
 - [Validation](#validation)
 	- [HTML Validation](#html-validation)
 	- [CSS Validation](#css-validation)
@@ -134,8 +143,6 @@ Used for Noto Sans JP and Roboto fonts that were used throughout the site.
 Used for various icons throughout the site.
 - [Bootstrap](https://getbootstrap.com/)
 Used for creating a responsive navigation bar used in every header of main site pages. Also used for creating a modal for a feedback form used on each of the main site pages.
-- [Google Maps](https://www.google.com/maps)
-Used to embed a map to the salon located on the contact us page
 - [Am I responsive](http://ami.responsivedesign.is/)
 Used to create a mulit-device mock-up that is shown at the top of the README file.
 - [Convertio](https://convertio.co/png-webp/)
@@ -144,15 +151,76 @@ Used to convert any PNG image to WEBP to improve the sites performance.
 # Features
 This site has ?? pages with ?? features
 ## Feature 1 - Home Page
-The homepage has ?? main sections to it:
+The homepage has 2 main sections to it:
 
-### Section 1 -
+1. Hero image
+2. Info cards with call to action buttons to other parts of the site
+
+This page is responsive and shows in a different layout on a mobile device compared to a desktop.
+### Section 1 - Hero Image
+
+Image from unsplash and chosen for a great landscape image that gives big impact on first load and immediately establishes what the site is about. There is an introduction heading under the image stating what the site is about.
 
 ![Feature 1 Section 1](#)
 
-### User Stories covered by this feature
-3- As a First Time Visitor
+### Section 2 - Info Cards
 
+The info cards give a brief insight into what can be found within the site. They all provide feedback when hovered over and contain a call to action to a specific part of the site. Allows for easier navigation through the site.
+
+![Feature 1 Section 2](#)
+
+### User Stories covered by this feature
+16- As a **Site Owner** I want the site to be responsive to whatever device the user is using.
+
+## Feature 2 - Stats Page
+The stats page has 3 main sections to it:
+
+1. The buttons to load the data
+2. The retrieved league table data
+3. The retrieved fixture data
+
+### Section 1 - Load Buttons
+
+The buttons allow the user to select the information that they would like to look at and all information is loaded asynchronously. As the user clicks on the table button a further 2 options are displayed to give them further control on what they would like to look at. By clicking on the fixtures button hides the additional buttons as they are not relevant to the fixtures data.
+
+After clicking on Table then 2020-2021:
+![Feature 2 Section 1 Img 1](#)
+
+After clicking on Fixtures
+![Feature 2 Section 1 Img 2](#)
+
+### Section 2 - League Table
+
+The league table data is retrieved from an API (see credits for provider details). The user is able to select from 2 different seasons. As the API data is updated so will the league tables so the users will get up to date information each time they visit.
+
+![Feature 2 Section 2](#)
+
+### Section 3 - Fixtures
+
+The fixtures data is retrieved from the same provider as the league table data. Again as these are upcoming fixtures as the season moves on this page will display the next 15 upcoming fixtures.
+
+![Feature 2 Section 3](#)
+
+### User Stories covered by this feature
+5- As a **First Time Visitor** I want to be able to see stats from the Premier League.
+
+8- As a **Returning Visitor** I want to be able to see updated stats from the Premier League.
+
+14- As a **Site Owner** I want to provide information from other sources to the user.
+
+## Feature 3 - Twitter Page
+The twitter page has 1 main section to it:
+
+1. The embedded twitter feed for the premier league account
+
+### Section 1 - Twitter Feed
+
+The twitter page provides the user with a live feed from the premier league twitter page. The user can interact with the feed and any links clicked will open up in a new tab so to not take them away from the site.
+
+![Feature 3 Section 1](#)
+
+### User Stories covered by this feature
+14- As a **Site Owner** I want to provide information from other sources to the user.
 # Validation
 ## HTML Validation
 [W3c Markup Validation Service](https://validator.w3.org/) has been used to validate all of the HTML code within the site. All pages have passed with 0 errors and 0 warnings. Click on the below to see each screenshot:
