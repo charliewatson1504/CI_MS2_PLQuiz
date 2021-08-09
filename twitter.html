@@ -19,65 +19,68 @@
     <title>Premier League Quiz | Homepage</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg" id="navbar">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">
-                    <img src="https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/logo.webp" alt="Premier League logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-ellipsis-v"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarLinks">
-                    <ul class="navbar-nav me-auto mb-lg-0">
-                        <li class="nav-item">
-                            <a href="index.html" class="navlink" aria-current="page">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="stats.html" class="navlink">Stats</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="twitter.html" class="navlink active">Twitter</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="quiz.html" class="navlink">Quiz</a>
-                        </li>
-                    </ul>
-                    <button class="btn hidden" type="button" data-bs-toggle="modal" data-bs-target="#feedbackModal">Leave Feedback</button>
-                </div>
-            </div>
-        </nav>
-        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title" id="feedbackModalLabel">Send Us Your Feedback</h3>
-                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <form id="feedback-form" onsubmit="return sendMail(this);">
-                        <div class="modal-body">
-                            <div class="form">
-                                <label for="name">Name: </label>
-                                <input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" required>
-                            </div>
-                            <div class="form">
-                                <label for="email">Email: </label>
-                                <input type="email" name="email" id="email" placeholder="Enter Email" class="forminput" required>
-                            </div>
-                            <div class="form">
-                                <label for="feedback">Feedback: </label>
-                                <textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" required></textarea>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary">Submit Feedback</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </header>
+	<header>
+		<nav class="navbar navbar-expand-lg" id="navbar">
+			<div class="container-fluid">
+				<a href="index.html" class="navbar-brand">
+					<img src="https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/logo.webp" alt="Premier League logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fas fa-ellipsis-v"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarLinks">
+					<ul class="navbar-nav me-auto mb-lg-0">
+						<li class="nav-item">
+							<a href="index.html" class="navlink" aria-current="page">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="stats.html" class="navlink">Stats</a>
+						</li>
+						<li class="nav-item">
+							<a href="twitter.html" class="navlink active">Social Media Feed</a>
+						</li>
+						<li class="nav-item">
+							<a href="quiz.html" class="navlink">Quiz</a>
+						</li>
+					</ul>
+					<button class="btn hidden" type="button" data-bs-toggle="modal" data-bs-target="#feedbackModal">Leave Feedback</button>
+				</div>
+			</div>
+		</nav>
+		<div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="feedbackModalLabel">Send Us Your Feedback</h3>
+						<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<form id="feedback-form" onsubmit="return sendMail(this);">
+						<div class="modal-body">
+							<div class="form">
+								<label for="name">Name: </label>
+								<input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" onblur="validateFormName()" required>
+							</div>
+							<div id="feedbackName" class="validate"></div>
+							<div class="form">
+								<label for="email">Email: </label>
+								<input type="email" name="email" id="email" placeholder="Enter Email" class="forminput" onblur="validateFormEmail()" required>
+							</div>
+							<div id="feedbackEmail" class="validate"></div>
+							<div class="form">
+								<label for="feedback">Feedback: </label>
+								<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" onblur="validateFormText()" required></textarea>
+							</div>
+							<div id="feedbackText" class="validate"></div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn btn-primary">Submit Feedback</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
     <div class="container scroll">
         <a class="twitter-timeline" href="https://twitter.com/premierleague?ref_src=twsrc%5Etfw">Tweets by premierleague</a> 
     </div>
@@ -88,18 +91,18 @@
 				<p>This site has been created for the sole purpose for a Milestone Project for a Code Institute course.<br> This is not endorsed and is the demonstrate skills learnt on the course by the developer.</p>
 			</div>
 			<div class="footer-item">
-				<i class="fab fa-facebook">
-					<a href="https://www.facebook.com/premierleague/" target="_blank" rel="noopener"></a>
-				</i>
-				<i class="fab fa-twitter">
-					<a href="https://twitter.com/premierleague" target="_blank" rel="noopener"></a>
-				</i>
-				<i class="fab fa-instagram">
-					<a href="https://www.instagram.com/premierleague/" target="_blank" rel="noopener"></a>
-				</i>
-				<i class="fab fa-youtube">
-					<a href="https://www.youtube.com/premierleague" target="_blank" rel="noopener"></a>
-				</i>
+				<a href="https://www.facebook.com/premierleague/" target="_blank" rel="noopener">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="https://twitter.com/premierleague" target="_blank" rel="noopener">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="https://www.instagram.com/premierleague/" target="_blank" rel="noopener">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://www.youtube.com/premierleague" target="_blank" rel="noopener">
+					<i class="fab fa-youtube"></i>
+				</a>
 			</div>
 		</div>
 	</footer>
