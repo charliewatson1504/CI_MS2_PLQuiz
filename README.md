@@ -44,6 +44,14 @@
 	- [Feature 3 - Twitter Page](#feature-3---twitter-page)
 		- [Section 1 - Twitter Feed](#section-1---twitter-feed)
 		- [User Stories covered by this feature](#user-stories-covered-by-this-feature-2)
+	- [Feature 4 - Quiz Page](#feature-4---quiz-page)
+		- [Section 1 - Info Card](#section-1---info-card)
+		- [Section 2 - Game Page](#section-2---game-page)
+		- [Section 3 - Quiz End Page](#section-3---quiz-end-page)
+		- [Section 4 - Call to action for feedback](#section-4---call-to-action-for-feedback)
+		- [User Stories covered by the feature](#user-stories-covered-by-the-feature)
+	- [Feature 5 - Feedback Modal](#feature-5---feedback-modal)
+		- [User Stories covered by the feature](#user-stories-covered-by-the-feature-1)
 - [Validation](#validation)
 	- [HTML Validation](#html-validation)
 	- [CSS Validation](#css-validation)
@@ -158,13 +166,11 @@ The homepage has 2 main sections to it:
 
 This page is responsive and shows in a different layout on a mobile device compared to a desktop.
 ### Section 1 - Hero Image
-
 Image from unsplash and chosen for a great landscape image that gives big impact on first load and immediately establishes what the site is about. There is an introduction heading under the image stating what the site is about.
 
 ![Feature 1 Section 1](#)
 
 ### Section 2 - Info Cards
-
 The info cards give a brief insight into what can be found within the site. They all provide feedback when hovered over and contain a call to action to a specific part of the site. Allows for easier navigation through the site.
 
 ![Feature 1 Section 2](#)
@@ -180,7 +186,6 @@ The stats page has 3 main sections to it:
 3. The retrieved fixture data
 
 ### Section 1 - Load Buttons
-
 The buttons allow the user to select the information that they would like to look at and all information is loaded asynchronously. As the user clicks on the table button a further 2 options are displayed to give them further control on what they would like to look at. By clicking on the fixtures button hides the additional buttons as they are not relevant to the fixtures data.
 
 After clicking on Table then 2020-2021:
@@ -190,13 +195,11 @@ After clicking on Fixtures
 ![Feature 2 Section 1 Img 2](#)
 
 ### Section 2 - League Table
-
 The league table data is retrieved from an API (see credits for provider details). The user is able to select from 2 different seasons. As the API data is updated so will the league tables so the users will get up to date information each time they visit.
 
 ![Feature 2 Section 2](#)
 
 ### Section 3 - Fixtures
-
 The fixtures data is retrieved from the same provider as the league table data. Again as these are upcoming fixtures as the season moves on this page will display the next 15 upcoming fixtures.
 
 ![Feature 2 Section 3](#)
@@ -214,13 +217,72 @@ The twitter page has 1 main section to it:
 1. The embedded twitter feed for the premier league account
 
 ### Section 1 - Twitter Feed
-
 The twitter page provides the user with a live feed from the premier league twitter page. The user can interact with the feed and any links clicked will open up in a new tab so to not take them away from the site.
 
 ![Feature 3 Section 1](#)
 
 ### User Stories covered by this feature
 14- As a **Site Owner** I want to provide information from other sources to the user.
+
+## Feature 4 - Quiz Page
+The quiz page has 4 main sections to it:
+
+1. An info card with a call to action to play the quiz.
+2. Questions page that displays the questions and possible answers.
+3. An end page of the quiz that displays the users score and a summary of all questions answer with correct answer to them.
+4. A call to action at the end of the quiz to provide feedback from the user.
+
+### Section 1 - Info Card
+The info card contains a banner picture with a title and a button to start the quiz. Kept in the same format as other pages to keep consistency to the site.
+
+![Feature 4 Section 1](#)
+
+### Section 2 - Game Page
+The game page displays the questions and available answers to the user. Feedback is provided to the user in the form of the answer displaying as either green or red depending on if they got the question right or wrong. There is also a progression bar and a score counter to give further feedback to the user on how they are progressing through the quiz.
+
+![Feature 4 Section 2](#)
+
+### Section 3 - Quiz End Page
+The quiz end page displays a summary of the users questions answered with correct answer shown and the score they got. There are buttons below the summary for the user to either play again or go back to the home page.
+
+![Feature 4 Section 3](#)
+
+### Section 4 - Call to action for feedback
+On the quiz end page there is a call to action for the user to provide feedback. By clicking this button it will open the feedback modal which is detailed in Feature ??????
+
+![Feature 4 Section 4](#)
+### User Stories covered by the feature
+1- As a **First Time Visitor** I want to be able to play an interactive quiz.
+
+2- As a **First Time Visitor** I want feedback on where I am up to through the quiz.
+
+3- As a **First Time Visitor** I want to know what my score is at the end of the quiz.
+
+4- As a **First Time Visitor** I want to know what questions I got wrong and what the correct answer was at the end of the game.
+
+9- As a **Returning Visitor** I want to be able to play the quiz again and be asked different questions.
+
+10- As a **Site Owner** I want to be able to provide an interactive quiz.
+
+11- As a **Site Owner** I want to be able to provide feedback to the user when playing the quiz.
+
+12- As a **Site Owner** I want to be able to confirm the users score at the end of the quiz.
+
+## Feature 5 - Feedback Modal
+The feedback modal allows the user to provide feedback to the site owner on their experience. The form is validated as the user fills it out highlights if it finds an error. Once the user submits the form a loader is shown to provide the user with feedback that it is being worked on and returns a success message when all complete.
+
+![Feature 5](#)
+
+### User Stories covered by the feature
+7- As a **First Time Visitor** I want to know if I have entered incorrect information.
+
+13- As a **Site Owner** I want to be able to validate the data entered by the user.
+
+15- As a **Site Owner** I want to be able to get feedback from the user.
+
+16- As a **Site Owner** I want the site to be responsive to whatever device the user is using.
+
+
 # Validation
 ## HTML Validation
 [W3c Markup Validation Service](https://validator.w3.org/) has been used to validate all of the HTML code within the site. All pages have passed with 0 errors and 0 warnings. Click on the below to see each screenshot:
