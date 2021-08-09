@@ -177,7 +177,7 @@ The homepage has ?? main sections to it:
 3. <details><summary>game.js</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/javascript-validation/jshint-game-js.png"></details>
 4. <details><summary>stats.js</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/javascript-validation/jshint-stats-js.png"></details>
 ## Accessibility Validation
-[WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) has been used to validate the site to the recognised standards when it comes to accessibility. All pages have passed with 0 errors. Click on the below to see each screenshot:
+[WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) has been used to validate the site to the recognised standards when it comes to accessibility. All pages, apart from the twitter page, have passed with 0 errors. There was 1 contrast error found on the twitter page which I was unable to locate. I believe this to be caused by the media feed and not part of the fundamental site.Click on the below to see each screenshot:
 1. <details><summary>Homepage</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-index.png"></details>
 2. <details><summary>Stats</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-stats.png"></details>
 3. <details><summary>Twitter</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/accessibilty/wave-twitter.png"></details>
