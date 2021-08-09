@@ -52,6 +52,10 @@
 		- [User Stories covered by the feature](#user-stories-covered-by-the-feature)
 	- [Feature 5 - Feedback Modal](#feature-5---feedback-modal)
 		- [User Stories covered by the feature](#user-stories-covered-by-the-feature-1)
+	- [Feature 6 - NavBar](#feature-6---navbar)
+		- [User Stories covered by the feature](#user-stories-covered-by-the-feature-2)
+	- [Feature 7 - Footer](#feature-7---footer)
+		- [User Stories covered by the feature](#user-stories-covered-by-the-feature-3)
 - [Validation](#validation)
 	- [HTML Validation](#html-validation)
 	- [CSS Validation](#css-validation)
@@ -248,7 +252,7 @@ The quiz end page displays a summary of the users questions answered with correc
 ![Feature 4 Section 3](#)
 
 ### Section 4 - Call to action for feedback
-On the quiz end page there is a call to action for the user to provide feedback. By clicking this button it will open the feedback modal which is detailed in Feature ??????
+On the quiz end page there is a call to action for the user to provide feedback. By clicking this button it will open the feedback modal which is detailed in Feature 5
 
 ![Feature 4 Section 4](#)
 ### User Stories covered by the feature
@@ -282,7 +286,19 @@ The feedback modal allows the user to provide feedback to the site owner on thei
 
 16- As a **Site Owner** I want the site to be responsive to whatever device the user is using.
 
+## Feature 6 - NavBar
+The navigation bar allows the user to easily navigate around the site. It is made using the bootstrap component NavBar. It is responsive to the screen it is being viewed on and will collapse when the screen size is more of tablet/mobile size.
 
+![Feature 6](#)
+
+### User Stories covered by the feature
+16- As a **Site Owner** I want the site to be responsive to whatever device the user is using.
+## Feature 7 - Footer
+The footer of the site contains a disclaimer from the developer and social media links to the various social pages the premier league has. They open up in a new tab as to no take the user away from the site.
+
+![Feature 7](#)
+### User Stories covered by the feature
+6- As a **First Time Visitor** I want to be able to see what is being said about Premier League on social media.
 # Validation
 ## HTML Validation
 [W3c Markup Validation Service](https://validator.w3.org/) has been used to validate all of the HTML code within the site. All pages have passed with 0 errors and 0 warnings. Click on the below to see each screenshot:
