@@ -76,7 +76,7 @@ function getTableData2020(){
 				</tr>`;
 			}
 		} else{
-			console.log(xhr.statusText);
+			console.log(xhr.statusText); // log error to console to allow inspection of error if it occurs
 			tableElement.innerHTML = `<p>Error with trying to get table information. Please try again.</p>`;
 		}
 	};
@@ -125,7 +125,7 @@ function getTableData2021(){
 				<td>${form[i]}</td>`;
 				}
 		} else{
-			console.log(xhr.statusText);
+			console.log(xhr.statusText); // log error to console to allow inspection of error if it occurs
 			tableElement.innerHTML = `<p>Error with trying to get table information. Please try again.</p>`;
 		}
 	};
@@ -166,7 +166,7 @@ function getFixtureData(){
 				`;
 				}
 		} else{
-			console.log(xhr.statusText);
+			console.log(xhr.statusText); // log error to console to allow inspection of error if it occurs
 			tableElement.innerHTML = `<p>Error with trying to get fixture information. Please try again.</p>`;
 		}
 	};

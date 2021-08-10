@@ -48,7 +48,7 @@ fetch('assets/js/questions.json')
 		beginQuiz();
 	})
 	.catch((err) => {
-		console.error(err);
+		console.error(err); // log error to console to allow inspection of error if it occurs
 	});
 /**
  * getANewQuestion function first checks if there are any available questions left or

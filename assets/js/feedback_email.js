@@ -22,7 +22,7 @@ function sendMail (feedbackForm) {
 			success();
 		},
 		function (error) {
-			console.log('Failed to send', error);
+			console.log('Failed to send', error); // log error to console to allow inspection of error if it occurs
 			failed();
 		}
 	);
