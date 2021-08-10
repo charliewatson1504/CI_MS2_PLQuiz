@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Favicon - credit to the Euro2020 wiki page for the Euro 2020 logo. I shrunk the logo down using Adobe Photoshop -->
+    <!-- Favicon - credit to the premier league wiki page for the premier league logo. I shrunk the logo down using Adobe Photoshop -->
     <link rel="shortcut icon" href="https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/favicon.ico" type="image/x-icon">
     <!-- EmailJS script -->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
@@ -20,12 +20,15 @@
 </head>
 <body>
 	<header>
+		<!-- Header containing a navbar with credit to Bootstrap for this component. The navbar give the user access to all pages and is responsive when viewed on all screen sizes. -->
 		<nav class="navbar navbar-expand-lg" id="navbar">
 			<div class="container-fluid">
 				<a href="index.html" class="navbar-brand">
+					<!-- logo - credit to premier league wikipedia page - https://en.wikipedia.org/wiki/Premier_League -->
 					<img src="https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/logo.webp" alt="Premier League logo">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+					<!-- font awesome icon -->
 					<i class="fas fa-ellipsis-v"></i>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarLinks">
@@ -43,10 +46,12 @@
 							<a href="quiz.html" class="navlink">Quiz</a>
 						</li>
 					</ul>
+					<!-- button trigger for feedback modal -->
 					<button class="btn hidden" type="button" data-bs-toggle="modal" data-bs-target="#feedbackModal">Leave Feedback</button>
 				</div>
 			</div>
 		</nav>
+		<!-- Feedback modal credit Bootstrap for this component. The modal allows the user to provide feedback without having a large form taking up space. -->
 		<div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -54,20 +59,24 @@
 						<h3 class="modal-title" id="feedbackModalLabel">Send Us Your Feedback</h3>
 						<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
+					<!-- Feedback form using the sendMail function from feedback_email.js file when form submitted -->
 					<form id="feedback-form" onsubmit="return sendMail(this);">
 						<div class="modal-body">
 							<div class="form">
 								<label for="name">Name: </label>
+								<!-- validateFormName function from feedback_email.js invoked when user leaves name box on form -->
 								<input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" onblur="validateFormName()" required>
 							</div>
 							<div id="feedbackName" class="validate"></div>
 							<div class="form">
 								<label for="email">Email: </label>
+								<!-- validateFormEmail function from feedback_email.js invoked when user leaves email box on form -->
 								<input type="email" name="email" id="email" placeholder="Enter Email" class="forminput" onblur="validateFormEmail()" required>
 							</div>
 							<div id="feedbackEmail" class="validate"></div>
 							<div class="form">
 								<label for="feedback">Feedback: </label>
+								<!-- validateFormText function from feedback_email.js invoked when user leaves feedback box on form -->
 								<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" onblur="validateFormText()" required></textarea>
 							</div>
 							<div id="feedbackText" class="validate"></div>
@@ -81,46 +90,66 @@
 			</div>
 		</div>
 	</header>
-<div class="stats-btns">
-        <div class="tab" id="table-btn"><h1>Table</h1></div>
-        <div class="tab" id="fixtures-btn"><h1>Fixtures</h1></div>
-</div>
-<div id="seasons" class="stats-btns hidden">
-    <div class="tab" id="btn-2020"><h2>2020-2021</h2></div>
-    <div class="tab" id="btn-2021"><h2>2021-2022</h2></div>
-</div>
-<div id="stats" class="container">
-    <table id="table-list"></table>
-</div>
-<footer>
-	<div class="footer-container">
-		<div class="footer-item">
-			<h5>Disclaimer:</h5><br>
-			<p>This site has been created for the sole purpose for a Milestone Project for a Code Institute course.<br> This is not endorsed and is the demonstrate skills learnt on the course by the developer.</p>
+	<div class="stats-btns">
+		<!-- table button when clicked gives 2 further options for the user -->
+		<div class="tab" id="table-btn">
+			<h1>Table</h1>
 		</div>
-		<div class="footer-item">
-			<a href="https://www.facebook.com/premierleague/" target="_blank" rel="noopener">
-				<i class="fab fa-facebook"></i>
-				<p class="hidden">Facebook</p>
-			</a>
-			<a href="https://twitter.com/premierleague" target="_blank" rel="noopener">
-				<i class="fab fa-twitter"></i>
-				<p class="hidden">Twitter</p>
-			</a>
-			<a href="https://www.instagram.com/premierleague/" target="_blank" rel="noopener">
-				<i class="fab fa-instagram"></i>
-				<p class="hidden">Instagram</p>
-			</a>
-			<a href="https://www.youtube.com/premierleague" target="_blank" rel="noopener">
-				<i class="fab fa-youtube"></i>
-				<p class="hidden">YouTube</p>
-			</a>
+		<!-- fixture button when clicked loads upcoming fixtures from thesportsdb[https://rapidapi.com/theapiguy/api/thesportsdb/] via stats.js -->
+		<div class="tab" id="fixtures-btn">
+			<h1>Fixtures</h1>
 		</div>
 	</div>
-</footer>
-<script src="assets/js/stats.js"></script>
-<script src="assets/js/feedback_email.js"></script>
-<!-- Script for Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<div id="seasons" class="stats-btns hidden">
+		<!-- 2020-2021 button when clicked loads league table for that season from thesportsdb[https://rapidapi.com/theapiguy/api/thesportsdb/] via stats.js -->
+		<div class="tab" id="btn-2020">
+			<h2>2020-2021</h2>
+		</div>
+		<!-- fixture button when clicked loads league table for that season from thesportsdb[https://rapidapi.com/theapiguy/api/thesportsdb/] via stats.js -->
+		<div class="tab" id="btn-2021">
+			<h2>2021-2022</h2>
+		</div>
+	</div>
+	<div id="stats" class="container">
+		<!-- table populated via data pulled in stats.js file -->
+		<table id="table-list"></table>
+	</div>
+	<footer>
+		<div class="footer-container">
+			<div class="footer-item">
+				<h5>Disclaimer:</h5><br>
+				<p>This site has been created for the sole purpose for a Milestone Project for a Code Institute course.<br> This is not endorsed and is the demonstrate skills learnt on the course by the developer.</p>
+			</div>
+			<!-- Links to the premier leagues social media pages. Links open up in a new tab -->
+			<div class="footer-item">
+				<a href="https://www.facebook.com/premierleague/" target="_blank" rel="noopener">
+					<!-- font awesome icon -->
+					<i class="fab fa-facebook"></i>
+					<p class="hidden">Facebook</p>
+				</a>
+				<a href="https://twitter.com/premierleague" target="_blank" rel="noopener">
+					<!-- font awesome icon -->
+					<i class="fab fa-twitter"></i>
+					<p class="hidden">Twitter</p>
+				</a>
+				<a href="https://www.instagram.com/premierleague/" target="_blank" rel="noopener">
+					<!-- font awesome icon -->
+					<i class="fab fa-instagram"></i>
+					<p class="hidden">Instagram</p>
+				</a>
+				<a href="https://www.youtube.com/premierleague" target="_blank" rel="noopener">
+					<!-- font awesome icon -->
+					<i class="fab fa-youtube"></i>
+					<p class="hidden">YouTube</p>
+				</a>
+			</div>
+		</div>
+	</footer>
+	<!-- link to stats.js -->
+	<script src="assets/js/stats.js"></script>
+	<!-- link to feedback_email.js -->
+	<script src="assets/js/feedback_email.js"></script>
+	<!-- Script for Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
