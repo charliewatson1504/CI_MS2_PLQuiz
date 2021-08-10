@@ -63,6 +63,8 @@
 		- [User Stories covered by the feature](#user-stories-covered-by-the-feature-2)
 	- [Feature 7 - Footer](#feature-7---footer)
 		- [User Stories covered by the feature](#user-stories-covered-by-the-feature-3)
+	- [Feature 8 - 404 page](#feature-8---404-page)
+		- [User Stories covered by the feature](#user-stories-covered-by-the-feature-4)
 - [Validation](#validation)
 	- [HTML Validation](#html-validation)
 	- [CSS Validation](#css-validation)
@@ -86,6 +88,7 @@
 		- [14. As a Site Owner I want to provide information from other sources to the user.](#14-as-a-site-owner-i-want-to-provide-information-from-other-sources-to-the-user)
 		- [15. As a Site Owner I want to be able to get feedback from the user.](#15-as-a-site-owner-i-want-to-be-able-to-get-feedback-from-the-user)
 		- [16. As a Site Owner I want the site to be responsive to whatever device the user is using.](#16-as-a-site-owner-i-want-the-site-to-be-responsive-to-whatever-device-the-user-is-using)
+		- [17. As a **Site Owner** I don't want the user to have to use the browser back or forward buttons to navigate the site.](#17-as-a-site-owner-i-dont-want-the-user-to-have-to-use-the-browser-back-or-forward-buttons-to-navigate-the-site)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credit](#credit)
@@ -123,6 +126,7 @@ The goal for this site is to provide a fun, interactive quiz that can be enjoyed
 14. As a **Site Owner** I want to provide information from other sources to the user.
 15. As a **Site Owner** I want to be able to get feedback from the user.
 16. As a **Site Owner** I want the site to be responsive to whatever device the user is using.
+17. As a **Site Owner** I don't want the user to have to use the browser back or forward buttons to navigate the site.
 
 ## User Requirements and Expectations
 
@@ -360,6 +364,12 @@ The footer of the site contains a disclaimer from the developer and social media
 ![Feature 7](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/features/feature-7.png)
 ### User Stories covered by the feature
 6- As a **First Time Visitor** I want to be able to see what is being said about Premier League on social media.
+## Feature 8 - 404 page
+The 404 page displays when the user tries to go to a part of the site that doesn't exist. It has the same header and footer as the index page to provide consistency. It contains a button in the middle of the page that allows them easy navigation to the homepage.
+
+![Feature 8](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/features/feature-8.png)
+### User Stories covered by the feature
+17- As a **Site Owner** I don't want the user to have to use the browser back or forward buttons to navigate the site.
 # Validation
 ## HTML Validation
 [W3c Markup Validation Service](https://validator.w3.org/) has been used to validate all of the HTML code within the site. All pages have passed with 0 errors and 0 warnings. Click on the below to see each screenshot:
@@ -518,6 +528,12 @@ The footer of the site contains a disclaimer from the developer and social media
 
 <details><summary>Screenshot to show user story test</summary><img src="#"></details>
 
+### 17. As a **Site Owner** I don't want the user to have to use the browser back or forward buttons to navigate the site.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
 
 # Bugs
 - Bug: game.html and quiz-end.html not displaying correctly on a mobile device
