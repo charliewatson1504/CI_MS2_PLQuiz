@@ -93,6 +93,9 @@
 		- [17. As a **Site Owner** I don't want the user to have to use the browser back or forward buttons to navigate the site.](#17-as-a-site-owner-i-dont-want-the-user-to-have-to-use-the-browser-back-or-forward-buttons-to-navigate-the-site)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
+	- [GitHub Pages](#github-pages)
+	- [EmailJS API](#emailjs-api)
+	- [TheSportDB via RapidAPI API](#thesportdb-via-rapidapi-api)
 - [Credit](#credit)
 - [Acknowledgements](#acknowledgements)
 
@@ -417,19 +420,19 @@ The 404 page displays when the user tries to go to a part of the site that doesn
 
 # Browser Compatibility
 
-The site has been tested in all areas on many devices and different browsers. I asked 3 friends to test on their devices for this project also. The below table details the result:
+The site has been tested in all areas on many the physical devices and different browsers. I asked 3 friends to test on their devices for this project also. The below table details the result:
 
-|Device|Device Model|Device Type|Browser|Physical or Emulator|Tester|Result|
-|---|---|---|---|---|---|---|
-|1|MacBook Pro|Desktop|Chrome|Physical|Developer|Works as expected|
-|2|MacBook Pro|Desktop|Safari|Physical|Developer|Works as expected|
-|3|MacBook Pro|Desktop|Firefox|Physical|Developer|Works as expected|
-|4|iPhone 11|Mobile|Chrome|Physical|Developer|Works as expected|
-|5|iPad pro|Tablet|Safari|Physical|Developer|Works as expected|
-|6|iPhone 11 pro|Mobile|Safari|Physical|External Tester 1|Works as expected|
-|7|Google Pixel 3a|Mobile|Chrome|Physical|External Tester 2|Works as expected|
-|8|iPhone Xr|Mobile|Safari|Physical|External Tester 3|Works as expected|
-|9|Samsung S6|Mobile|Samsung Internet|Physical|External Tester 3|Works as expected|
+|Device|Device Model|Device Type|Browser|Tester|Result|
+|---|---|---|---|---|---|
+|1|MacBook Pro|Desktop|Chrome|Developer|Works as expected|
+|2|MacBook Pro|Desktop|Safari|Developer|Works as expected|
+|3|MacBook Pro|Desktop|Firefox|Developer|Works as expected|
+|4|iPhone 11|Mobile|Chrome|Developer|Works as expected|
+|5|iPad pro|Tablet|Safari|Developer|Works as expected|
+|6|iPhone 11 pro|Mobile|Safari|External Tester 1|Works as expected|
+|7|Google Pixel 3a|Mobile|Chrome|External Tester 2|Works as expected|
+|8|iPhone Xr|Mobile|Safari|External Tester 3|Works as expected|
+|9|Samsung S6|Mobile|Samsung Internet|External Tester 3|Works as expected|
 <br>
 ### Example screenshots from the external testers are below:
 External Tester 1 on device number 6<details><summary>User Stories tested - 1, 2, 3, 4, 9, 10, 11, 12, 16</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/external-tester-1.png"></details>
@@ -582,7 +585,8 @@ All screenshots of the below are from device 3 - Desktop, 4 - Mobile and 5 - Tab
 - Fix: put i elements in a elements and not the other way round
 
 # Deployment
-The website has been deloyed on Github pages. To do this follow the below steps:
+## GitHub Pages
+The website has been deployed on Github pages. To do this follow the below steps:
 1. Log into your GitHub account then go to the repository your want to deploy.
 2. Click on the settings tab.
 3. Click on the pages button found on the left hand nav menu.
@@ -600,6 +604,21 @@ To make a clone of this repository you will need to do the below:
 <!-- add command here -->
 
 5. You will now have a copy of the repository in you local version
+
+## EmailJS API
+1. Go to [EmailJS](https://www.emailjs.com/) and sign up for a free account.
+2. Fill out sign up form and click sign up
+3. Click 'Add New Service' under Email Service heading.
+4. Make a note of the service ID once email service created.
+5. Click on Email Templates in the side bar.
+6. Click on 'Create New Template' under Email Templates heading.
+7. Make a note of the service ID once email template is created.
+8. In script file include user ID, email service ID and template ID in the sendMail method.
+
+## TheSportDB via RapidAPI API
+1. Go to [TheSportsDB](https://rapidapi.com/theapiguy/api/thesportsdb/) page on [Rapid API](https://rapidapi.com/hub).
+2. Click on pricing in navigation bar. ![rapidapi-deployment-img1](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/deployment/rapidapi-deployment-img1.png)
+3. 
 # Credit
 - Bootstrap for the following components: [navbar](https://getbootstrap.com/docs/5.0/components/navbar/), [modals](https://getbootstrap.com/docs/5.0/components/modal/)
 - Colormind for creating the [colour pallette](http://colormind.io/)
