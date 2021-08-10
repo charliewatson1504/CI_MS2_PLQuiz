@@ -12,7 +12,7 @@ const scoreId = document.getElementById('score-ID');
 const questionNumberId = document.getElementById('question-number');
 const progressBarInner = document.getElementById('progress-bar-inner');
 
-const pointsPerCorrectScore = 50;
+const pointsPerCorrectScore = 1;
 const totalQuizQuestions = 10;
 // quiz variables
 let currentQuestion = {};
