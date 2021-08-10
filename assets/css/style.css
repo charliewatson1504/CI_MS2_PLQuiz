@@ -435,11 +435,6 @@ h4 {
 	cursor: pointer;
 }
 
-#question {
-    font-size: 3rem;
-    padding: 1rem 0;
-}
-
 .option-prefix {
 	padding: 1.5rem 2.5rem;
     border: 1px solid #484747;
@@ -471,32 +466,6 @@ h4 {
     text-align: center;
 }
 
-.quiz-end {
-    padding: 1rem;
-}
-
-.quiz-end a {
-    background: var(--gradient);
-    margin: 0 2rem 5rem 2rem;
-    font-size: 2rem;
-    background-image: var(--gradient);
-    background-size: 300%;
-    animation: bg-animation 20s infinite;
-}
-
-#final-score {
-    font-size: 6rem;
-    color: var(--clr-light);
-    text-shadow: 0.1rem 0.1rem 0.1rem #484747;
-}
-
-#err404-card-bg {
-	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/404.webp) no-repeat center center;
-	height: 15rem;
-	width: 100%;
-	background-size: cover;
-}
-
 .tab {
 	background: var(--clr-accent);
 	width: 100%;
@@ -514,6 +483,10 @@ h4 {
 	100% {background-position: left;}
 }
 
+#question {
+    font-size: 3rem;
+    padding: 1rem 0;
+}
 
 #stats {
 	overflow: scroll;
@@ -521,11 +494,11 @@ h4 {
 	height: 80vh;
 }
 
-@media screen and (max-width: 576px) {
-	#stats {
-		justify-content: flex-start;
-		padding: 0.25rem 0.25rem;
-	}
+#err404-card-bg {
+	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/404.webp) no-repeat center center;
+	height: 15rem;
+	width: 100%;
+	background-size: cover;
 }
 
 #table-list {
@@ -548,6 +521,15 @@ h4 {
 	width: 4rem;
 }
 
+@media screen and (max-width: 576px) {
+	#question {
+		font-size: 2rem;
+	}
+	#stats {
+		justify-content: flex-start;
+		padding: 0.25rem 0.25rem;
+	}
+}
 /* 8. Progress Header */
 
 .progress-header {
@@ -588,6 +570,18 @@ h4 {
     100% {background-position: left;}
 }
 
+@media screen and (max-width: 576px) {
+	.container {
+		padding: 0.5rem 1rem;
+	}
+	.progress-header {
+		text-align: center;
+		display: block;
+	}
+	.progress-header div p {
+		font-size: 2rem;
+	}
+}
 
 /* 9. Quiz end page */
 
@@ -610,6 +604,37 @@ h4 {
 	font-size: 1.5rem;
 	padding: 0.5rem;
 	border: 0.6px solid black;
+}
+
+.quiz-end {
+    padding: 1rem;
+}
+
+.quiz-end a {
+    background: var(--gradient);
+    margin: 0 2rem 5rem 2rem;
+    font-size: 2rem;
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: bg-animation 20s infinite;
+}
+
+#final-score {
+    font-size: 6rem;
+    color: var(--clr-light);
+    text-shadow: 0.1rem 0.1rem 0.1rem #484747;
+}
+
+@media screen and (max-width: 576px) {
+	#final-score {
+		font-size: 4rem;
+	}
+	#q-and-a td,
+	#q-and-a th {
+	font-size: 1rem;
+	padding: 0.5rem;
+	border: 0.6px solid black;
+}
 }
 
 /* 10. Utilities */
