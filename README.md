@@ -28,6 +28,13 @@
 	- [Images](#images)
 	- [Wireframes](#wireframes)
 		- [Homepage](#homepage)
+		- [Stats](#stats)
+		- [Twitter](#twitter)
+		- [Quiz](#quiz)
+		- [Game](#game)
+		- [Quiz End](#quiz-end)
+		- [404 Page](#404-page)
+		- [Modal](#modal)
 - [Technologies Used](#technologies-used)
 	- [Languages](#languages)
 	- [Frameworks, libraries and other tools](#frameworks-libraries-and-other-tools)
@@ -129,9 +136,41 @@ stats card Photo by <a href="https://unsplash.com/@travelnomades?utm_source=unsp
 ## Wireframes
 The wireframes for the site were created in Adobe XD and are linked below for Desktop, Tablet and Mobile devices.
 ### Homepage
-1. <details><summary>Desktop</summary><img src="#"></details>
-2. <details><summary>Tablet</summary><img src="#"></details>
-3. <details><summary>Mobile</summary><img src="#"></details>
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/desktop/index-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/tablet/index-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/mobile/index-mobile.png"></details>
+
+### Stats
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/desktop/stats-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/tablet/stats-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/mobile/stats-mobile.png"></details>
+
+### Twitter
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/desktop/twitter-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/tablet/twitter-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/mobile/twitter-mobile.png"></details>
+
+### Quiz
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/desktop/quiz-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/tablet/quiz-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/mobile/quiz-mobile.png"></details>
+
+### Game
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/desktop/game-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/tablet/game-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/mobile/game-mobile.png"></details>
+
+### Quiz End
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/desktop/quiz-end-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/tablet/quiz-end-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/mobile/quiz-end-mobile.png"></details>
+
+### 404 Page
+1. <details><summary>404 Page</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/404-page/404-page.png"></details>
+
+### Modal
+1. <details><summary>Modal</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/wireframes/modal/modal.png"></details>
+
 
 # Technologies Used
 ## Languages
