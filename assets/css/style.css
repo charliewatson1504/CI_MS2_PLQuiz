@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@700&display=swap');
 
+/****************************
+	Table of Contents
+	1. Global Styles
+	2. NavBar
+	3. Modal
+	4. Buttons
+	5. Homepage
+	6. Footer
+	7. Containers and cards
+	8. Progress Header
+	9. Quiz End page
+	10. Utilities
+****************************/
+
+/* 1. Global Styles */
+
 :root {
+	/* sets REM to 10px */
 	font-size: 62.5%;
+	/* custom variants used for the site colour scheme which allows easy changing of the colour scheme if needed */
 	--clr-dark: #484747;
 	--clr-accent: #1f79b4;
 	--clr-light: #fff;
-
     --gradient: linear-gradient(90deg, #6eb0fa, #7fbef9, #93ccf8, #abd9f7, #cee8f6)
 }
 
@@ -27,6 +44,8 @@ h4 {
 	font-family: 'Roboto', sans-serif;
 }
 
+/* 2. NavBar */
+/* navbar component has been built using bootstrap but has been given custom styling to fit in with the sites aesthetic */
 .container-fluid {
 	padding: 1rem 0;
 }
@@ -73,7 +92,7 @@ h4 {
 .active {
 	border-bottom: 2px solid #fff;
 }
-
+/* Media queries used to provide a responsive site. */
 @media screen and (max-width: 992px) {
 	.nav-item {
 		margin: 0 auto;
@@ -86,8 +105,8 @@ h4 {
 	}
 }
 
-/* Modal */
-
+/* 3. Modal */
+/* Modal components have been built using bootstrap but have been given custom styling to fit in with the sites aesthetic */
 .form label {
     width: 20%;
     vertical-align: top;
@@ -104,8 +123,23 @@ h4 {
 	text-align: center;
 	padding: 1rem 0;
 }
+/* credit to W3Schools for loader */
+.loader {
+	border: 16px solid var(--clr-light);
+	border-top: 16px solid var(--clr-accent);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	animation: spin 2s linear infinite;
+}
 
-/* Buttons */
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/* 4. Buttons */
 
 .btn {
 	background: var(--clr-light);
@@ -141,6 +175,30 @@ h4 {
     color: var(--clr-light);
 }
 
+#quiz-close {
+    background: var(--clr-accent);
+    height: 5rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+#quiz-close i {
+    color: var(--clr-light);
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    float: right;
+}
+
+.stats-btns {
+	max-width: 80rem;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* 5. Homepage */
+/* Credit to unsplash for the image */
 #homepage-hero {
 	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/homepage-hero.webp) no-repeat center center;
 	height: 45rem;
@@ -167,7 +225,7 @@ h4 {
 	border: 0.1rem solid #484747;
 	box-shadow: 0.2rem 0.2rem 0.8rem #484747;
 }
-
+/* Media queries used to provide a responsive site. */
 @media screen and (max-width: 1200px) {
     .homepage-container {
         padding: 0.5rem;
@@ -248,13 +306,15 @@ h4 {
     background-image: var(--gradient);
     animation: bg-animation 20s infinite;
 }
-
+/* animation gives movement on screen so site isn't static and keeps user engaged */
 @keyframes bg-animation {
     0% {background-position: left;}
     50% {background-position: right;}
     100% {background-position: left;}
 }
 
+/* 6.Footer */
+/* Flexbox used to provide a responsive site. */
 .footer-container{
 	width: 100%;
 	border-top: 2px solid var(--clr-dark);
@@ -276,7 +336,7 @@ h4 {
 	cursor: pointer;
 	color: var(--clr-light);
 }
-
+/* Media queries used to provide a responsive site. */
 @media screen and (max-width: 768px) {
 	.footer-item > a > i {
 		font-size: 2rem;
@@ -289,6 +349,8 @@ h4 {
 	transition: transform 150ms ease;
 }
 
+/* 7. Containers and cards */
+/* Flexbox used to provide a responsive site. */
 .container {
 	width: 100vw;
 	height: 100vh;
@@ -311,20 +373,6 @@ h4 {
 
 .container.scroll {
 	align-items: flex-start;
-}
-
-#quiz-close {
-    background: var(--clr-accent);
-    height: 5rem;
-    max-width: 80rem;
-    margin: 0 auto;
-}
-
-#quiz-close i {
-    color: var(--clr-light);
-    font-size: 3rem;
-    padding: 1rem 2rem;
-    float: right;
 }
 
 .quiz-container {
@@ -377,47 +425,6 @@ h4 {
     transition: transform 150ms ease;
 }
 
-/* Progress Header */
-
-.progress-header {
-	display: flex;
-	justify-content: space-between;
-    background: var(--clr-light);
-    padding: 1rem 1.5rem;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    border: 1px solid #484747;
-}
-
-.progress-header div p {
-    display: inline-block;
-}
-
-#progress-bar-outer {
-	height: 2.2rem;
-	border: 1px solid #484747;
-	width: 100%;
-    background: var(--clr-light);
-    box-shadow: 0.1rem 0.1rem 0.1rem #484747;
-    margin-bottom: 2rem;
-}
-
-#progress-bar-inner {
-	background: var(--gradient);
-	height: 2rem;
-	width: 20%;
-    background-size: 300%;
-    background-image: var(--gradient);
-    animation: bg-animation 20s infinite;
-}
-
-@keyframes bg-animation {
-    0% {background-position: left;}
-    50% {background-position: right;}
-    100% {background-position: left;}
-}
-
-/* Quiz */
 .option-container {
 	display: flex;
 	width: 100%;
@@ -490,32 +497,6 @@ h4 {
 	background-size: cover;
 }
 
-/* credit to W3Schools for loader */
-.loader {
-	border: 16px solid var(--clr-light);
-	border-top: 16px solid var(--clr-accent);
-	border-radius: 50%;
-	width: 120px;
-	height: 120px;
-	margin: 0 auto;
-	animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
-
-/* stats */
-
-.stats-btns {
-	max-width: 80rem;
-	margin: 0 auto;
-	text-align: center;
-	display: flex;
-	justify-content: space-around;
-}
-
 .tab {
 	background: var(--clr-accent);
 	width: 100%;
@@ -567,7 +548,48 @@ h4 {
 	width: 4rem;
 }
 
-/* quiz end page */
+/* 8. Progress Header */
+
+.progress-header {
+	display: flex;
+	justify-content: space-between;
+    background: var(--clr-light);
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    border: 1px solid #484747;
+}
+
+.progress-header div p {
+    display: inline-block;
+}
+
+#progress-bar-outer {
+	height: 2.2rem;
+	border: 1px solid #484747;
+	width: 100%;
+    background: var(--clr-light);
+    box-shadow: 0.1rem 0.1rem 0.1rem #484747;
+    margin-bottom: 2rem;
+}
+
+#progress-bar-inner {
+	background: var(--gradient);
+	height: 2rem;
+	width: 20%;
+    background-size: 300%;
+    background-image: var(--gradient);
+    animation: bg-animation 20s infinite;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    50% {background-position: right;}
+    100% {background-position: left;}
+}
+
+
+/* 9. Quiz end page */
 
 #quiz-end {
 	overflow: scroll;
@@ -589,6 +611,8 @@ h4 {
 	padding: 0.5rem;
 	border: 0.6px solid black;
 }
+
+/* 10. Utilities */
 
 .width50 {
 	width: 50%;
