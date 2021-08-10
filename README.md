@@ -69,6 +69,12 @@
 	- [JavaScript Validation](#javascript-validation)
 	- [Accessibility Validation](#accessibility-validation)
 	- [Performance](#performance)
+- [Testing of User Stories](#testing-of-user-stories)
+		- [1. As a First Time Visitor](#1-as-a-first-time-visitor)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credit](#credit)
+- [Acknowledgements](#acknowledgements)
 
 # UX
 
@@ -382,7 +388,42 @@ The footer of the site contains a disclaimer from the developer and social media
 6. <details><summary>Quiz-End</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-quiz-end.png"></details>
 7. <details><summary>404</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-404.png"></details>
 
+# Testing of User Stories
+### 1. As a First Time Visitor
 
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
 
-Credit
-Fun trivia https://www.funtrivia.com/en/Sports/FA-Premier-League-1361.html - questions
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+# Bugs
+- Bug:
+- Fix:
+
+# Deployment
+The website has been deloyed on Github pages. To do this follow the below steps:
+1. Log into your GitHub account then go to the repository your want to deploy.
+2. Click on the settings tab.
+3. Click on the pages button found on the left hand nav menu.
+4. Click on source.
+5. Click the dropdown that says none and then select Master Branch.
+6. Wait for a few seconds and the page should automatically refresh
+7. In GitHub pages you can see your link to the published site.
+
+To make a clone of this repository you will need to do the below:
+1. Login to your GitHub account.
+2. Find the repo by going to https://github.com/charliewatson1504/CI_MS1_TSP
+3. Click the Code button and then use the copy button next to the link to copy the link.
+4. In your IDE of choice use the below clone command in a new terminal:
+
+```git clone https://github.com/charliewatson1504/??????????.git```
+
+5. You will now have a copy of the repository in you local version
+# Credit
+- W3C Schools for lessons on [Flexboxes](https://www.w3schools.com/css/css3_flexbox.asp)
+- Bootstrap for the following components: [navbar](https://getbootstrap.com/docs/5.0/components/navbar/), [modals](https://getbootstrap.com/docs/5.0/components/modal/), [carousel](https://getbootstrap.com/docs/5.0/components/carousel/) and [accordions](https://getbootstrap.com/docs/5.0/components/accordion/)
+- Colormind for creating the [colour pallette](http://colormind.io/)
+- Fun trivia https://www.funtrivia.com/en/Sports/FA-Premier-League-1361.html - questions
+# Acknowledgements
+- To Mo Shami, my mentor, for getting me through this with great advice and support
+- To the Code Institute slack community for finding out great advice, guidance and resources.
