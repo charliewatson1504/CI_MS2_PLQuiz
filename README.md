@@ -71,6 +71,21 @@
 	- [Performance](#performance)
 - [Testing of User Stories](#testing-of-user-stories)
 		- [1. As a First Time Visitor I want to be able to play an interactive quiz.](#1-as-a-first-time-visitor-i-want-to-be-able-to-play-an-interactive-quiz)
+		- [2. As a First Time Visitor I want feedback on where I am up to through the quiz.](#2-as-a-first-time-visitor-i-want-feedback-on-where-i-am-up-to-through-the-quiz)
+		- [3. As a First Time Visitor I want to know what my score is at the end of the quiz.](#3-as-a-first-time-visitor-i-want-to-know-what-my-score-is-at-the-end-of-the-quiz)
+		- [4. As a First Time Visitor I want to know what questions I got wrong and what the correct answer was at the end of the game.](#4-as-a-first-time-visitor-i-want-to-know-what-questions-i-got-wrong-and-what-the-correct-answer-was-at-the-end-of-the-game)
+		- [5. As a First Time Visitor I want to be able to see stats from the Premier League.](#5-as-a-first-time-visitor-i-want-to-be-able-to-see-stats-from-the-premier-league)
+		- [6. As a First Time Visitor I want to be able to see what is being said about Premier League on social media.](#6-as-a-first-time-visitor-i-want-to-be-able-to-see-what-is-being-said-about-premier-league-on-social-media)
+		- [7. As a First Time Visitor I want to know if I have entered incorrect information.](#7-as-a-first-time-visitor-i-want-to-know-if-i-have-entered-incorrect-information)
+		- [8. As a Returning Visitor I want to be able to see updated stats from the Premier League.](#8-as-a-returning-visitor-i-want-to-be-able-to-see-updated-stats-from-the-premier-league)
+		- [9. As a Returning Visitor I want to be able to play the quiz again and be asked different questions.](#9-as-a-returning-visitor-i-want-to-be-able-to-play-the-quiz-again-and-be-asked-different-questions)
+		- [10. As a Site Owner I want to be able to provide an interactive quiz.](#10-as-a-site-owner-i-want-to-be-able-to-provide-an-interactive-quiz)
+		- [11. As a Site Owner I want to be able to provide feedback to the user when playing the quiz.](#11-as-a-site-owner-i-want-to-be-able-to-provide-feedback-to-the-user-when-playing-the-quiz)
+		- [12. As a Site Owner I want to be able to confirm the users score at the end of the quiz.](#12-as-a-site-owner-i-want-to-be-able-to-confirm-the-users-score-at-the-end-of-the-quiz)
+		- [13. As a Site Owner I want to be able to validate the data entered by the user.](#13-as-a-site-owner-i-want-to-be-able-to-validate-the-data-entered-by-the-user)
+		- [14. As a Site Owner I want to provide information from other sources to the user.](#14-as-a-site-owner-i-want-to-provide-information-from-other-sources-to-the-user)
+		- [15. As a Site Owner I want to be able to get feedback from the user.](#15-as-a-site-owner-i-want-to-be-able-to-get-feedback-from-the-user)
+		- [16. As a Site Owner I want the site to be responsive to whatever device the user is using.](#16-as-a-site-owner-i-want-the-site-to-be-responsive-to-whatever-device-the-user-is-using)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credit](#credit)
@@ -396,7 +411,113 @@ The footer of the site contains a disclaimer from the developer and social media
 |Find play button on quiz page|Click on quiz nav button in nav bar then click on play button|Game page loads with new game|Works as expected|
 |Find play button on quiz page|Scroll down homepage then click on Quiz button. On the next page click on play button|Game page loads with new game|Works as expected|
 
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-1.jpg"></details>
+
+### 2. As a First Time Visitor I want feedback on where I am up to through the quiz.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
 <details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 3. As a First Time Visitor I want to know what my score is at the end of the quiz.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 4. As a First Time Visitor I want to know what questions I got wrong and what the correct answer was at the end of the game.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 5. As a First Time Visitor I want to be able to see stats from the Premier League.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 6. As a First Time Visitor I want to be able to see what is being said about Premier League on social media.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 7. As a First Time Visitor I want to know if I have entered incorrect information.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 8. As a Returning Visitor I want to be able to see updated stats from the Premier League.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 9. As a Returning Visitor I want to be able to play the quiz again and be asked different questions.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 10. As a Site Owner I want to be able to provide an interactive quiz.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 11. As a Site Owner I want to be able to provide feedback to the user when playing the quiz.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 12. As a Site Owner I want to be able to confirm the users score at the end of the quiz.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 13. As a Site Owner I want to be able to validate the data entered by the user.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 14. As a Site Owner I want to provide information from other sources to the user.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 15. As a Site Owner I want to be able to get feedback from the user.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
+### 16. As a Site Owner I want the site to be responsive to whatever device the user is using.
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+
+<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+
 
 # Bugs
 - Bug: game.html and quiz-end.html not displaying correctly on a mobile device
