@@ -197,6 +197,11 @@ h4 {
 	justify-content: space-around;
 }
 
+.stats-btns .tab:hover {
+	transform: scale(1.01);
+	transition: transform 150ms ease;
+}
+
 /* 5. Homepage */
 /* Credit to unsplash for the image */
 #homepage-hero {
@@ -263,27 +268,6 @@ h4 {
 	transition: transform 250ms ease-in-out;
 }
 
-#stats-card-bg {
-	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/stats-card.webp) no-repeat center center;
-	height: 15rem;
-	width: 100%;
-	background-size: cover;
-}
-
-#twitter-card-bg {
-	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/twitter-card.webp) no-repeat center center;
-	height: 15rem;
-	width: 100%;
-	background-size: cover;
-}
-
-#quiz-card-bg {
-	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/quiz-card.webp) no-repeat center center;
-	height: 15rem;
-	width: 100%;
-	background-size: cover;
-}
-
 .homepage-container .card p,
 .homepage-container .card a {
     font-size: 2rem;
@@ -305,6 +289,27 @@ h4 {
     background-size: 300%;
     background-image: var(--gradient);
     animation: bg-animation 20s infinite;
+}
+
+#stats-card-bg {
+	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/stats-card.webp) no-repeat center center;
+	height: 15rem;
+	width: 100%;
+	background-size: cover;
+}
+
+#twitter-card-bg {
+	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/twitter-card.webp) no-repeat center center;
+	height: 15rem;
+	width: 100%;
+	background-size: cover;
+}
+
+#quiz-card-bg {
+	background: url(https://charliewatson1504.github.io/CI_MS2_PLQuiz/assets/images/quiz-card.webp) no-repeat center center;
+	height: 15rem;
+	width: 100%;
+	background-size: cover;
 }
 /* animation gives movement on screen so site isn't static and keeps user engaged */
 @keyframes bg-animation {
@@ -530,6 +535,13 @@ h4 {
 		padding: 0.25rem 0.25rem;
 	}
 }
+
+#stats-introduction {
+	width: 100%;
+	text-align: center;
+	padding: 1rem 0;
+}
+
 /* 8. Progress Header */
 
 .progress-header {
