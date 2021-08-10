@@ -397,8 +397,22 @@ The footer of the site contains a disclaimer from the developer and social media
 <details><summary>Screenshot to show user story test</summary><img src="#"></details>
 
 # Bugs
-- Bug:
-- Fix:
+- Bug: game.html and quiz-end.html not displaying correctly on a mobile device
+- Fix: add media queries to css file to reduce text size to display correctly
+- Bug: modal not displaying when button clicked on quiz-end page
+- Fix: bootstrap script missing at end of html - added and now working
+- Bug: Unnecessary and missing semi colons in js files
+- Fix: add and remove as required
+- Bug: contrast issue highlighted in validation
+- Fix: darken header color to improve color contrast
+- Bug: 404 page card button linking to stats page
+- Fix: update link to take to homepage
+- Bug: CSS not loading on stats page
+- Fix: remove unnecessary / at start of filepath to css file
+- Bug: feedback modal loader showing before user is able to enter information in form
+- Fix: add submit event listener then call loader function when submit button is clicked
+- Bug: social media links in footer not working
+- Fix: put i elements in a elements and not the other way round
 
 # Deployment
 The website has been deloyed on Github pages. To do this follow the below steps:
@@ -416,14 +430,14 @@ To make a clone of this repository you will need to do the below:
 3. Click the Code button and then use the copy button next to the link to copy the link.
 4. In your IDE of choice use the below clone command in a new terminal:
 
-```git clone https://github.com/charliewatson1504/??????????.git```
+```git clone https://github.com/charliewatson1504/CI_MS2_PLQuiz.git```
 
 5. You will now have a copy of the repository in you local version
 # Credit
-- W3C Schools for lessons on [Flexboxes](https://www.w3schools.com/css/css3_flexbox.asp)
-- Bootstrap for the following components: [navbar](https://getbootstrap.com/docs/5.0/components/navbar/), [modals](https://getbootstrap.com/docs/5.0/components/modal/), [carousel](https://getbootstrap.com/docs/5.0/components/carousel/) and [accordions](https://getbootstrap.com/docs/5.0/components/accordion/)
+- Bootstrap for the following components: [navbar](https://getbootstrap.com/docs/5.0/components/navbar/), [modals](https://getbootstrap.com/docs/5.0/components/modal/)
 - Colormind for creating the [colour pallette](http://colormind.io/)
-- Fun trivia https://www.funtrivia.com/en/Sports/FA-Premier-League-1361.html - questions
+- [Fun trivia](https://www.funtrivia.com/en/Sports/FA-Premier-League-1361.html) for the questions for the quiz.
+- [Unsplash](https://unsplash.com/) for variour images use throughout the site.
 # Acknowledgements
-- To Mo Shami, my mentor, for getting me through this with great advice and support
+- To Mo Shami, my mentor, for yet again getting me through this with great advice and support.
 - To the Code Institute slack community for finding out great advice, guidance and resources.
