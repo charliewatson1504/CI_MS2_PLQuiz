@@ -20,62 +20,62 @@
 </head>
 <body>
 	<!-- summary section for the user showing score and what questions they got right or wrong -->
-		<div class="container" id="quiz-end">
-			<div class="row">
-				<div class="quiz-end">
-					<h1>Well done on completing the quiz!</h1>
-					<!-- updated by functions from the quiz-end.js file -->
-					<p id="final-score"></p>
-					<!-- updated by functions from the quiz-end.js file -->
-					<table id="q-and-a"></table>
-					<a href="game.html" class="btn">Play Again?</a>
-					<a href="index.html" class="btn">Back to Home</a>
-				</div>
-				<div class="quiz-end">
-					<h2>We would love to hear what you thought of the quiz</h2>
-					<!-- button trigger for feedback modal giving call to action to get feedback from the user -->
-					<button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#feedbackModal">Leave Feedback</button>
-					<!-- Feedback modal credit Bootstrap for this component. The modal allows the user to provide feedback without having a large form taking up space. -->
-					<div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h3 class="modal-title" id="feedbackModalLabel">Send Us Your Feedback</h3>
-									<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-								</div>
-								<!-- Feedback form using the sendMail function from feedback_email.js file when form submitted -->
-								<form id="feedback-form" onsubmit="return sendMail(this);">
-									<div class="modal-body">
-										<div class="form">
-											<label for="name">Name: </label>
-											<!-- validateFormName function from feedback_email.js invoked when user leaves name box on form -->
-											<input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" onblur="validateFormName()" required>
-										</div>
-										<div id="feedbackName" class="validate"></div>
-										<div class="form">
-											<label for="email">Email: </label>
-											<!-- validateFormEmail function from feedback_email.js invoked when user leaves email box on form -->
-											<input type="email" name="email" id="email" placeholder="Enter Email" class="forminput" onblur="validateFormEmail()" required>
-										</div>
-										<div id="feedbackEmail" class="validate"></div>
-										<div class="form">
-											<label for="feedback">Feedback: </label>
-											<!-- validateFormText function from feedback_email.js invoked when user leaves feedback box on form -->
-											<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" onblur="validateFormText()" required></textarea>
-										</div>
-										<div id="feedbackText" class="validate"></div>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-										<button type="submit" class="btn btn-primary">Submit Feedback</button>
-									</div>
-								</form>
+	<div class="container" id="quiz-end">
+		<div class="row">
+			<div class="quiz-end">
+				<h1>Well done on completing the quiz!</h1>
+				<!-- updated by functions from the quiz-end.js file -->
+				<p id="final-score"></p>
+				<!-- updated by functions from the quiz-end.js file -->
+				<table id="q-and-a"></table>
+				<a href="game.html" class="btn">Play Again?</a>
+				<a href="index.html" class="btn">Back to Home</a>
+			</div>
+			<div class="quiz-end">
+				<h2>We would love to hear what you thought of the quiz</h2>
+				<!-- button trigger for feedback modal giving call to action to get feedback from the user -->
+				<button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#feedbackModal">Leave Feedback</button>
+				<!-- Feedback modal credit Bootstrap for this component. The modal allows the user to provide feedback without having a large form taking up space. -->
+				<div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3 class="modal-title" id="feedbackModalLabel">Send Us Your Feedback</h3>
+								<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
 							</div>
+							<!-- Feedback form using the sendMail function from feedback_email.js file when form submitted -->
+							<form id="feedback-form" onsubmit="return sendMail(this);">
+								<div class="modal-body">
+									<div class="form">
+										<label for="name">Name: </label>
+										<!-- validateFormName function from feedback_email.js invoked when user leaves name box on form -->
+										<input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" onblur="validateFormName()" required>
+									</div>
+									<div id="feedbackName" class="validate"></div>
+									<div class="form">
+										<label for="email">Email: </label>
+										<!-- validateFormEmail function from feedback_email.js invoked when user leaves email box on form -->
+										<input type="email" name="email" id="email" placeholder="Enter Email" class="forminput" onblur="validateFormEmail()" required>
+									</div>
+									<div id="feedbackEmail" class="validate"></div>
+									<div class="form">
+										<label for="feedback">Feedback: </label>
+										<!-- validateFormText function from feedback_email.js invoked when user leaves feedback box on form -->
+										<textarea name="feedback" id="feedback" placeholder="Please leave us your thoughts" style="height: 10rem;" class="forminput" onblur="validateFormText()" required></textarea>
+									</div>
+									<div id="feedbackText" class="validate"></div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+									<button type="submit" class="btn btn-primary">Submit Feedback</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 	<!-- link to feedback_email.js file -->
 	<script src="assets/js/feedback_email.js"></script>
 	<!-- link to game-end.js file -->
