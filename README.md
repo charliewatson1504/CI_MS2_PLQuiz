@@ -71,6 +71,8 @@
 	- [JavaScript Validation](#javascript-validation)
 	- [Accessibility Validation](#accessibility-validation)
 	- [Performance](#performance)
+- [Browser Compatibility](#browser-compatibility)
+		- [Example screenshots from the external testers are below:](#example-screenshots-from-the-external-testers-are-below)
 - [Testing of User Stories](#testing-of-user-stories)
 		- [1. As a First Time Visitor I want to be able to play an interactive quiz.](#1-as-a-first-time-visitor-i-want-to-be-able-to-play-an-interactive-quiz)
 		- [2. As a First Time Visitor I want feedback on where I am up to through the quiz.](#2-as-a-first-time-visitor-i-want-feedback-on-where-i-am-up-to-through-the-quiz)
@@ -413,7 +415,30 @@ The 404 page displays when the user tries to go to a part of the site that doesn
 6. <details><summary>Quiz-End</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-quiz-end.png"></details>
 7. <details><summary>404</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-404.png"></details>
 
+# Browser Compatibility
+
+The site has been tested in all areas on many devices and different browsers. I asked 3 friends to test on their devices for this project also. The below table details the result:
+
+|Device|Device Model|Device Type|Browser|Physical or Emulator|Tester|Result|
+|---|---|---|---|---|---|---|
+|1|MacBook Pro|Desktop|Chrome|Physical|Developer|Works as expected|
+|2|MacBook Pro|Desktop|Safari|Physical|Developer|Works as expected|
+|3|MacBook Pro|Desktop|Firefox|Physical|Developer|Works as expected|
+|4|iPhone 11|Mobile|Chrome|Physical|Developer|Works as expected|
+|5|iPad pro|Tablet|Safari|Physical|Developer|Works as expected|
+|6|iPhone 11 pro|Mobile|Safari|Physical|External Tester 1|Works as expected|
+|7|Google Pixel 3a|Mobile|Chrome|Physical|External Tester 2|Works as expected|
+|8|iPhone Xr|Mobile|Safari|Physical|External Tester 3|Works as expected|
+|9|Samsung S6|Mobile|Samsung Internet|Physical|External Tester 3|Works as expected|
+<br>
+### Example screenshots from the external testers are below:
+External Tester 1 on device number 6<details><summary>User Stories tested - 1, 2, 3, 4, 9, 10, 11, 12, 16</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/external-tester-1.png"></details>
+
+External Tester 2 on device number 7<details><summary>User Stories tested - 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 14, 16</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/external-tester-2.png"></details>
+
+External Tester 3 on device number 9<details><summary>User Stories tested - 1, 2, 3, 4, 6, 9, 10, 11, 12, 14, 16</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/external-tester-3.png"></details>
 # Testing of User Stories
+All screenshots of the below are from device 3 - Desktop, 4 - Mobile and 5 - Tablet
 ### 1. As a First Time Visitor I want to be able to play an interactive quiz.
 
 |Feature|Action|Expected Result|Actual Result|
@@ -421,7 +446,10 @@ The 404 page displays when the user tries to go to a part of the site that doesn
 |Find play button on quiz page|Click on quiz nav button in nav bar then click on play button|Game page loads with new game|Works as expected|
 |Find play button on quiz page|Scroll down homepage then click on Quiz button. On the next page click on play button|Game page loads with new game|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-1.jpg"></details>
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="#"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="#"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="#"></details>
+<br>
 
 ### 2. As a First Time Visitor I want feedback on where I am up to through the quiz.
 
