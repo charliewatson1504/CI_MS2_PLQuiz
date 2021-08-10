@@ -70,7 +70,7 @@
 	- [Accessibility Validation](#accessibility-validation)
 	- [Performance](#performance)
 - [Testing of User Stories](#testing-of-user-stories)
-		- [1. As a First Time Visitor](#1-as-a-first-time-visitor)
+		- [1. As a First Time Visitor I want to be able to play an interactive quiz.](#1-as-a-first-time-visitor-i-want-to-be-able-to-play-an-interactive-quiz)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credit](#credit)
@@ -389,10 +389,12 @@ The footer of the site contains a disclaimer from the developer and social media
 7. <details><summary>404</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/validation/performance-validation/lighthouse-404.png"></details>
 
 # Testing of User Stories
-### 1. As a First Time Visitor
+### 1. As a First Time Visitor I want to be able to play an interactive quiz.
 
 |Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|---|---|---|---|
+|Find play button on quiz page|Click on quiz nav button in nav bar then click on play button|Game page loads with new game|Works as expected|
+|Find play button on quiz page|Scroll down homepage then click on Quiz button. On the next page click on play button|Game page loads with new game|Works as expected|
 
 <details><summary>Screenshot to show user story test</summary><img src="#"></details>
 
