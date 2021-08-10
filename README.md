@@ -618,7 +618,15 @@ To make a clone of this repository you will need to do the below:
 ## TheSportDB via RapidAPI API
 1. Go to [TheSportsDB](https://rapidapi.com/theapiguy/api/thesportsdb/) page on [Rapid API](https://rapidapi.com/hub).
 2. Click on pricing in navigation bar. ![rapidapi-deployment-img1](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/deployment/rapidapi-deployment-img1.png)
-3. 
+3. Click on subscribe for basic package.
+4. Sign up for an account.
+5. Enter payment details.
+6. Once subscribed go back the endpoints page.
+7. Search for the data you want to use. ![rapidapi-deployment-img2](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/deployment/rapidapi-deployment-img2.png)
+8. Add any additional parameters in middle section then press test endpoint. ![rapidapi-deployment-img3](https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/deployment/rapidapi-deployment-img3.png)
+9. Results are shown.
+10. Click on 'Code Snippets' and use dropdown box to find detail on XMLHttpsRequest.
+11. Use that information in stats.js file.
 # Credit
 - Bootstrap for the following components: [navbar](https://getbootstrap.com/docs/5.0/components/navbar/), [modals](https://getbootstrap.com/docs/5.0/components/modal/)
 - Colormind for creating the [colour pallette](http://colormind.io/)
