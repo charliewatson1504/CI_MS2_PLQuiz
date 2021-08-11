@@ -444,22 +444,32 @@ External Tester 3 on device number 9<details><summary>User Stories tested - 1, 2
 All screenshots of the below are from device 3 - Desktop, 4 - Mobile and 5 - Tablet
 ### 1. As a First Time Visitor I want to be able to play an interactive quiz.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---|
-|Find play button on quiz page|Click on quiz nav button in nav bar then click on play button|Game page loads with new game|Works as expected|
-|Find play button on quiz page|Scroll down homepage then click on Quiz button. On the next page click on play button|Game page loads with new game|Works as expected|
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|Start quiz|Click on quiz nav button in nav bar then click on play button|Game page loads with new game|Works as expected|
+|2|Start quiz|Scroll down homepage then click on Quiz button. On the next page click on play button|Game page loads with new game|Works as expected|
 
-<details><summary>Screenshot to show user story test - Desktop</summary><img src="#"></details>
-<details><summary>Screenshot to show user story test - Tablet</summary><img src="#"></details>
-<details><summary>Screenshot to show user story test - Mobile</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-1-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-1-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-1-1.png"></details>
+
+Test 2
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-1-2.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-1-2.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-1-2.png"></details>
 <br>
 
 ### 2. As a First Time Visitor I want feedback on where I am up to through the quiz.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|Progress header on game page|View progress bar on game page|Game displays progress bar and question number|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-2-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-2-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-2-1.png"></details>
 
 ### 3. As a First Time Visitor I want to know what my score is at the end of the quiz.
 
