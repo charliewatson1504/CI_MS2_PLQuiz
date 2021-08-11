@@ -740,7 +740,7 @@ To make a clone of this repository you will need to do the below:
 3. Click the Code button and then use the copy button next to the link to copy the link.
 4. In your IDE of choice use the below clone command in a new terminal:
 
-<!-- add command here -->
+```git clone https://github.com/charliewatson1504/CI_MS2_PLQuiz.git```
 
 5. You will now have a copy of the repository in you local version
 
