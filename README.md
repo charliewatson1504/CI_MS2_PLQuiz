@@ -99,6 +99,33 @@
 - [Credit](#credit)
 - [Acknowledgements](#acknowledgements)
 
+- [Testing of User Stories](#testing-of-user-stories)<details><summary>Links to tests</summary>
+	- [1. As a First Time Visitor I want to be able to play an interactive quiz.](#1-as-a-first-time-visitor-i-want-to-be-able-to-play-an-interactive-quiz)
+	- [2. As a First Time Visitor I want feedback on where I am up to through the quiz.](#2-as-a-first-time-visitor-i-want-feedback-on-where-i-am-up-to-through-the-quiz)
+	- [3. As a First Time Visitor I want to know what my score is at the end of the quiz.](#3-as-a-first-time-visitor-i-want-to-know-what-my-score-is-at-the-end-of-the-quiz)
+	- [4. As a First Time Visitor I want to know what questions I got wrong and what the correct answer was at the end of the game.](#4-as-a-first-time-visitor-i-want-to-know-what-questions-i-got-wrong-and-what-the-correct-answer-was-at-the-end-of-the-game)
+	- [5. As a First Time Visitor I want to be able to see stats from the Premier League.](#5-as-a-first-time-visitor-i-want-to-be-able-to-see-stats-from-the-premier-league)
+	- [6. As a First Time Visitor I want to be able to see what is being said about Premier League on social media.](#6-as-a-first-time-visitor-i-want-to-be-able-to-see-what-is-being-said-about-premier-league-on-social-media)
+	- [7. As a First Time Visitor I want to know if I have entered incorrect information.](#7-as-a-first-time-visitor-i-want-to-know-if-i-have-entered-incorrect-information)
+	- [8. As a Returning Visitor I want to be able to see updated stats from the Premier League.](#8-as-a-returning-visitor-i-want-to-be-able-to-see-updated-stats-from-the-premier-league)
+	- [9. As a Returning Visitor I want to be able to play the quiz again and be asked different questions.](#9-as-a-returning-visitor-i-want-to-be-able-to-play-the-quiz-again-and-be-asked-different-questions)
+	- [10. As a Site Owner I want to be able to provide an interactive quiz.](#10-as-a-site-owner-i-want-to-be-able-to-provide-an-interactive-quiz)
+	- [11. As a Site Owner I want to be able to provide feedback to the user when playing the quiz.](#11-as-a-site-owner-i-want-to-be-able-to-provide-feedback-to-the-user-when-playing-the-quiz)
+	- [12. As a Site Owner I want to be able to confirm the users score at the end of the quiz.](#12-as-a-site-owner-i-want-to-be-able-to-confirm-the-users-score-at-the-end-of-the-quiz)
+	- [13. As a Site Owner I want to be able to validate the data entered by the user.](#13-as-a-site-owner-i-want-to-be-able-to-validate-the-data-entered-by-the-user)
+	- [14. As a Site Owner I want to provide information from other sources to the user.](#14-as-a-site-owner-i-want-to-provide-information-from-other-sources-to-the-user)
+	- [15. As a Site Owner I want to be able to get feedback from the user.](#15-as-a-site-owner-i-want-to-be-able-to-get-feedback-from-the-user)
+	- [16. As a Site Owner I want the site to be responsive to whatever device the user is using.](#16-as-a-site-owner-i-want-the-site-to-be-responsive-to-whatever-device-the-user-is-using)
+	- [17. As a **Site Owner** I don't want the user to have to use the browser back or forward buttons to navigate the site.](#17-as-a-site-owner-i-dont-want-the-user-to-have-to-use-the-browser-back-or-forward-buttons-to-navigate-the-site)</details>
+  
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+	- [GitHub Pages](#github-pages)
+	- [EmailJS API](#emailjs-api)
+	- [TheSportDB via RapidAPI API](#thesportdb-via-rapidapi-api)
+- [Credit](#credit)
+- [Acknowledgements](#acknowledgements)
+
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # UX
@@ -232,7 +259,7 @@ Used to create a mulit-device mock-up that is shown at the top of the README fil
 Used to convert any PNG image to WEBP to improve the sites performance.
 
 # Features
-This site has ?? pages with ?? features
+This site has 5 pages with 8 features
 ## Feature 1 - Home Page
 The homepage has 2 main sections to it:
 
@@ -678,7 +705,7 @@ Test 1
 <details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-15-1.png"></details>
 <details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-15-1.png"></details>
 <details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-15-1.png"></details>
-<details><summary>Screenshot to show user story test - Email from emailJS</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-15-email.png"></details>
+<details><summary>Screenshot to show user story test - Email from emailJS</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-15-email.png"></details>
 <br>
 
 ### 16. As a Site Owner I want the site to be responsive to whatever device the user is using.
@@ -688,7 +715,7 @@ Test 1
 |1|When pages viewed on smaller screens all content will reduce in size without content overflowing and not able to be seen.|View homepage, gallery and meet the team pages on a iphone 5 screen with width of 320px.|All content will shrink down in size without spilling out and not able to be seen.|Works as expected|
 
 Test 1
-<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-16-1.png"></details>
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-16-1.png"></details>
 <br>
 
 ### 17. As a **Site Owner** I don't want the user to have to use the browser back or forward buttons to navigate the site.
@@ -699,10 +726,10 @@ Test 1
 |2|User can navigate back to the home screen without using browser back button|Try to load a page that doesn't exist. Click on Get Me Home button.|User is taken back to the home page|Works as expected|
 
 Test 1
-<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-17-1.png"></details>
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-17-1.png"></details>
 
 Test 2
-<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-17-2.png"></details>
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-17-2.png"></details>
 <br>
 
 # Bugs
