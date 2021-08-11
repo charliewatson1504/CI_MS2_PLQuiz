@@ -470,41 +470,76 @@ Test 1
 <details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-2-1.png"></details>
 <details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-2-1.png"></details>
 <details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-2-1.png"></details>
+<br>
 
 ### 3. As a First Time Visitor I want to know what my score is at the end of the quiz.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|Final score displayed on quiz end page|Play quiz and at the end of the game score is shown|Score is displayed|Worked as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-3-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-3-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-3-1.png"></details>
+<br>
 
 ### 4. As a First Time Visitor I want to know what questions I got wrong and what the correct answer was at the end of the game.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|User answers and correct answers displayed|Play quiz and at the end of the game the user answers and correct answers are displayed|Answers are displayed|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-4-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-4-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-4-1.png"></details>
+<br>
 
 ### 5. As a First Time Visitor I want to be able to see stats from the Premier League.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|View league table on stats page|Click on stats link in navbar. Then click on table and choose a year.|Page will display whichever years league table selected|Works as expected|
+|2|View league table on stats page|Scroll down homepage and click on stats link in card. Then click on table and choose a year.|Page will display whichever years league table selected|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-5-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-5-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-5-1.png"></details>
+
+Test 2
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-5-2.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-5-2.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-5-2.png"></details>
+<br>
 
 ### 6. As a First Time Visitor I want to be able to see what is being said about Premier League on social media.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|View twitter feed on social media page|Click on social media feed link in navbar.|Page will display twitter feed|Works as expected|
+|2|View twitter feed on social media page|Scroll down homepage and click on social media link in card.|Page will display twitter feed|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-6-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-6-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-6-1.png"></details>
+
+Test 2
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-6-2.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-6-2.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-6-2.png"></details>
+<br>
 
 ### 7. As a First Time Visitor I want to know if I have entered incorrect information.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|Error messaged displayed when details not correct on feedback form|Click on social media feed link in navbar.|Page will display twitter feed|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-6-1.png"></details>
 
 ### 8. As a Returning Visitor I want to be able to see updated stats from the Premier League.
 

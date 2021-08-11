@@ -202,6 +202,16 @@ h4 {
 	transition: transform 150ms ease;
 }
 
+#mobile-feedback-btn  {
+	font-size: 2rem;
+}
+/* Media queries used to provide a responsive site. */
+@media screen and (min-width: 992px) {
+	#mobile-feedback-btn {
+		display: none;
+	}
+}
+
 /* 5. Homepage */
 /* Credit to unsplash for the image */
 #homepage-hero {
