@@ -771,6 +771,10 @@ To make a clone of this repository you will need to do the below:
 - Colormind for creating the [colour pallette](http://colormind.io/)
 - [Fun trivia](https://www.funtrivia.com/en/Sports/FA-Premier-League-1361.html) for the questions for the quiz.
 - [Unsplash](https://unsplash.com/) for variour images use throughout the site.
+- [marckdown-toc](http://ecotrust-canada.github.io/markdown-toc/) for creating the table of contents in the readme file.
+- [YouTube](https://www.youtube.com/) for many tutorial videos on different javascript aspects.
+- [w3school](https://www.w3schools.com/) and [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for a great resource when stuck with how to get a specific piece of javascript code to work.
+- [stackoverflow](https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript) for the format to use when validating an email
 # Acknowledgements
 - To Mo Shami, my mentor, for yet again getting me through this with great advice and support.
 - To the Code Institute slack community for finding out great advice, guidance and resources.
