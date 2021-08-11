@@ -536,31 +536,71 @@ Test 2
 
 |Test|Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|---|
-|1|Error messaged displayed when details not correct on feedback form|Click on social media feed link in navbar.|Page will display twitter feed|Works as expected|
+|1|Error messaged displayed when details not correct on feedback form|Click on social media feed link in navbar on desktop and tablet to open form. On mobile scroll down the homepage to leave feedback button to open form. Click into name box and leave it blank.|Error message will appear under name box|Works as expected|
 
 Test 1
-<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-6-1.png"></details>
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-7-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-7-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-7-1.png"></details>
+<br>
 
 ### 8. As a Returning Visitor I want to be able to see updated stats from the Premier League.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+Stats page uses an api to connect to an external database so updates externally to this site. When a user returns they go back to the stats page as described in user story test 5.
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|View league table on stats page|Click on stats link in navbar. Then click on table and choose a year.|Page will display whichever years league table selected|Works as expected|
+|2|View league table on stats page|Scroll down homepage and click on stats link in card. Then click on table and choose a year.|Page will display whichever years league table selected|Works as expected|
+
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-8-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-8-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-8-1.png"></details>
+
+Test 2
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-8-2.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-8-2.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-8-2.png"></details>
+<br>
 
 ### 9. As a Returning Visitor I want to be able to play the quiz again and be asked different questions.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+Quiz has a database of 20 questions and are randomised so when a user returns they won't get all of the same questions. User access quiz the same as detailed in user story test.
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|Start quiz|Click on quiz nav button in nav bar then click on play button|Game page loads with new game|Works as expected|
+|2|Start quiz|Scroll down homepage then click on Quiz button. On the next page click on play button|Game page loads with new game|Works as expected|
+
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-9-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-9-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-9-1.png"></details>
+
+Test 2
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-9-2.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-9-2.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-9-2.png"></details>
+<br>
 
 ### 10. As a Site Owner I want to be able to provide an interactive quiz.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|Start quiz|Click on quiz nav button in nav bar then click on play button|Game page loads with new game|Works as expected|
+|2|Start quiz|Scroll down homepage then click on Quiz button. On the next page click on play button|Game page loads with new game|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-10-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-10-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-10-1.png"></details>
+
+Test 2
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-10-2.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-10-2.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-10-2.png"></details>
+<br>
 
 ### 11. As a Site Owner I want to be able to provide feedback to the user when playing the quiz.
 
