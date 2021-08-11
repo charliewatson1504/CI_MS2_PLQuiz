@@ -536,7 +536,7 @@ Test 2
 
 |Test|Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|---|
-|1|Error messaged displayed when details not correct on feedback form|Click on social media feed link in navbar on desktop and tablet to open form. On mobile scroll down the homepage to leave feedback button to open form. Click into name box and leave it blank.|Error message will appear under name box|Works as expected|
+|1|Error messaged displayed when details not correct on feedback form|Click on leave feedback button in navbar on desktop and tablet to open form. On mobile scroll down the homepage to leave feedback button to open form. Click into name box and leave it blank.|Error message will appear under name box|Works as expected|
 
 Test 1
 <details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-7-1.png"></details>
@@ -586,6 +586,8 @@ Test 2
 
 ### 10. As a Site Owner I want to be able to provide an interactive quiz.
 
+Follows the same test as user story 1.
+
 |Test|Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|---|
 |1|Start quiz|Click on quiz nav button in nav bar then click on play button|Game page loads with new game|Works as expected|
@@ -604,52 +606,102 @@ Test 2
 
 ### 11. As a Site Owner I want to be able to provide feedback to the user when playing the quiz.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+Follows the same test as user story 2
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|Progress header on game page|View progress bar on game page|Game displays progress bar and question number|Works as expected|
+
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-11-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-11-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-11-1.png"></details>
+<br>
 
 ### 12. As a Site Owner I want to be able to confirm the users score at the end of the quiz.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+Follows the same test as user story 3
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|Final score displayed on quiz end page|Play quiz and at the end of the game score is shown|Score is displayed|Worked as expected|
+
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-12-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-12-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-12-1.png"></details>
+<br>
 
 ### 13. As a Site Owner I want to be able to validate the data entered by the user.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+Follows the same test as user story 7
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|Error messaged displayed when details not correct on feedback form|Click on social media feed link in navbar on desktop and tablet to open form. On mobile scroll down the homepage to leave feedback button to open form. Click into name box and leave it blank.|Error message will appear under name box|Works as expected|
+
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-13-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-13-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-13-1.png"></details>
+<br>
 
 ### 14. As a Site Owner I want to provide information from other sources to the user.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+Follows the same test as user story 5
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|View league table on stats page|Click on stats link in navbar. Then click on table and choose a year.|Page will display whichever years league table selected|Works as expected|
+|2|View league table on stats page|Scroll down homepage and click on stats link in card. Then click on table and choose a year.|Page will display whichever years league table selected|Works as expected|
+
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-5-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-5-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-5-1.png"></details>
+
+Test 2
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-5-2.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-5-2.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-5-2.png"></details>
+<br>
 
 ### 15. As a Site Owner I want to be able to get feedback from the user.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|User completed feedback form|Click on leave feedback button in navbar on desktop and tablet to open form. On mobile scroll down the homepage to leave feedback button to open form. Fill out form and click submit.|User gets a success message in modal and receives an email to confirm.|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test - Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/user-story-15-1.png"></details>
+<details><summary>Screenshot to show user story test - Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/tablet-user-story-15-1.png"></details>
+<details><summary>Screenshot to show user story test - Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-15-1.png"></details>
+<details><summary>Screenshot to show user story test - Email from emailJS</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-15-email.png"></details>
+<br>
 
 ### 16. As a Site Owner I want the site to be responsive to whatever device the user is using.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|When pages viewed on smaller screens all content will reduce in size without content overflowing and not able to be seen.|View homepage, gallery and meet the team pages on a iphone 5 screen with width of 320px.|All content will shrink down in size without spilling out and not able to be seen.|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-16-1.png"></details>
+<br>
 
 ### 17. As a **Site Owner** I don't want the user to have to use the browser back or forward buttons to navigate the site.
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---| 
+|Test|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|---|
+|1|404 page displayed when user tries to go to a part of the site that doesn't exist|Try to load a page that doesn't exist|404 page loads|Works as expected|
+|2|User can navigate back to the home screen without using browser back button|Try to load a page that doesn't exist. Click on Get Me Home button.|User is taken back to the home page|Works as expected|
 
-<details><summary>Screenshot to show user story test</summary><img src="#"></details>
+Test 1
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-17-1.png"></details>
+
+Test 2
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS2_PLQuiz/blob/main/docs/testing/mobile-user-story-17-2.png"></details>
+<br>
 
 # Bugs
 - Bug: game.html and quiz-end.html not displaying correctly on a mobile device
